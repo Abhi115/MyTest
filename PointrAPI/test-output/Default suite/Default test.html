@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 11 13:23:23 BST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12643 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: User, 360test, 1, 200, You are successfully registered</td>
+<td></td>
+<td>1</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: User, 360test, 2, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: User, 360test, 6, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: !@#$%, 360test, 6, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 123, 360test, 6, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: -123, 360test, 6, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu, 360test, 6, 400, The field userName must be a string or array type with a maximum length of '100'.</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: Lorem ipsum dolor sit amet, consectetuer, 360test, 6, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, 360test, 6, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, , 1, 400, Password is required</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, test, 1, 400, Password must be at least 6 characters and at most 100 characters long.</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu, 1, 400, Password must be at least 6 characters and at most 100 characters long.</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, !@#$%^, 1, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, testtest, 1, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, 12345678, 1, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, -12345678, 1, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test06_Add_New_User()'><b>test06_Add_New_User</b><br>Test class: com.pointr.configure.Users<br>Parameters: 360 User, test@360, 1, 200, You are successfully registered</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test09_Add_New_User_When_Password_And_ConfirmPassword_DoesNotMatch()'><b>test09_Add_New_User_When_Password_And_ConfirmPassword_DoesNotMatch</b><br>Test class: com.pointr.configure.Users</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test10_Edit_Password()'><b>test10_Edit_Password</b><br>Test class: com.pointr.configure.Users</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test11_Edit_Password_With_blank_Password_Field()'><b>test11_Edit_Password_With_blank_Password_Field</b><br>Test class: com.pointr.configure.Users</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+<tr>
+<td title='com.pointr.configure.Users.test12_Edit_Role()'><b>test12_Edit_Role</b><br>Test class: com.pointr.configure.Users</td>
+<td></td>
+<td>0</td>
+<td>com.pointr.configure.Users@14acaea5</td></tr>
+</table><p>
+</body>
+</html>

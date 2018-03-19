@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="POI scripts"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.525">
+  <properties />
+  
+  
+            <testcase name="test_Publish_Poi_With_Blank_Token" time="2.310" classname="com.pointr.tests.poi.POIPublish" />
+                <testcase name="test_Publish_Poi_With_Invalid_Device_Identifier" time="2.085" classname="com.pointr.tests.poi.POIPublish" />
+                <testcase name="test_Publish_Poi_With_Blank_Device_Identifier" time="2.296" classname="com.pointr.tests.poi.POIPublish" />
+                <testcase name="test_Publish_Poi_With_Invalid_Token" time="1.834" classname="com.pointr.tests.poi.POIPublish" />
+      
+</testsuite>

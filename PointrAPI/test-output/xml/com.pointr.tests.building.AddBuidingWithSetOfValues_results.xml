@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Building Test cases"
+           tests="53"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="76.849">
+  <properties />
+  
+  
+            <testcase name="testAddBuidingWithSetOfValues" time="1.910" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.844" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="2.082" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.644" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.450" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.885" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuildingWithBlankDeviceIdentifier" time="0.704" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.862" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.912" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.601" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.923" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.884" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="2.062" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuildingWithIsArrayTrue" time="0.551" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.022" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.840" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.004" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.853" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.628" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuildingWithInvalidToken" time="0.894" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.724" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.906" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.869" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.576" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.084" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.862" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.864" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.812" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.798" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.530" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.061" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.916" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.694" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.401" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.785" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.373" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.724" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuildingWithInvalidDeviceIdentifier" time="0.878" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="2.246" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.745" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.951" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.779" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.700" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.071" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.526" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.840" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuildingWithBlankToken" time="0.851" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.578" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.785" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.949" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="0.775" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="1.568" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+                <testcase name="testAddBuidingWithSetOfValues" time="2.073" classname="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+      
+</testsuite>

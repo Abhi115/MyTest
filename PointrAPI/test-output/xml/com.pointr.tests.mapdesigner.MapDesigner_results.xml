@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MapDesigner Test cases"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.293">
+  <properties />
+  
+  
+            <testcase name="testAddMapDesignerWithInvalidToken" time="1.293" classname="com.pointr.tests.mapdesigner.MapDesigner" />
+      
+</testsuite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="POI scripts"
+           tests="19"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.143">
+  <properties />
+  
+  
+            <testcase name="test03_POI_POST_EndPoint_Edit_BlankToken" time="1.003" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Save_BlankDeviceId" time="0.833" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test09_POI_POST_EndPoint_Edit_withIsArrayTrue" time="0.812" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test15_POI_POST_EndPoint_Edit_with_Type_Two" time="0.570" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test13_POI_POST_EndPoint_Save_with_Blank_Name" time="0.618" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test11_POI_POST_EndPoint_Save_with_Blank_POI_Id" time="0.568" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test06_POI_POST_EndPoint_Save_InvalidDeviceId" time="1.262" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test08_POI_POST_EndPoint_Save_withIsArrayTrue" time="0.903" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test18_POI_POST_With_InvalidToken" time="0.892" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test10_POI_POST_EndPoint_Edit_with_Blank_POI_Id" time="0.932" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test05_POI_POST_EndPoint_Edit_InvalidDeviceId" time="0.902" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test01_POI_POST_EndPoint_Save_AlreadyExist" time="6.462" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test17_POI_POST_EndPoint_Save_with_Type_Two" time="0.997" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test02_POI_POST_EndPoint_Edit_InvalidToken" time="1.032" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test19_POI_POST_With_BlankToken" time="0.935" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test04_POI_POST_EndPoint_Edit_BlankDeviceId" time="0.585" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test12_POI_POST_EndPoint_Edit_with_Blank_Name" time="0.980" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test16_POI_POST_EndPoint_Save_with_Type_One" time="0.875" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+                <testcase name="test14_POI_POST_EndPoint_Edit_with_Type_One" time="0.982" classname="com.pointr.tests.poi.POI_NegativeScenarios" />
+      
+</testsuite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Building Test cases"
+           tests="45"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="59.146">
+  <properties />
+  
+  
+            <testcase name="testEditBuildingWithSetOfValues" time="1.939" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.921" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.663" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.844" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.734" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithBlankToken" time="0.945" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.068" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.665" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.677" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.681" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.229" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.227" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.024" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithBlankDeviceIdentifier" time="0.668" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithInvalidDeviceIdentifier" time="0.914" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithIsArrayTrue" time="1.136" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="2.067" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.663" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.754" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.646" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.268" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.631" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.546" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.774" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.633" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.454" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.024" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.222" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.674" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.128" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.650" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.437" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.581" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.622" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithInvalidToken" time="1.203" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.770" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.073" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.030" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.820" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.922" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.568" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.561" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="1.935" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="2.256" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+                <testcase name="testEditBuildingWithSetOfValues" time="0.899" classname="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+      
+</testsuite>

@@ -1,0 +1,22 @@
+{
+   "type":"Feature",
+   "properties":{
+      "id":"poi150096413424",
+      "level":"0",
+      "name":"Test360",
+      "description":"",
+      "type":"3",
+      "keywords":"",
+      "startshelf":"",
+      "endshelf":"",
+      "minZoomLevel":"out",
+      "maxZoomLevel":"in"
+   },
+   "geometry":{
+      "type":"Point",
+      "coordinates":[
+         38.205078125,
+         -39
+      ]
+   }
+}

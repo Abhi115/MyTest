@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PointrAPI" verbose="10" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="com.pointr.report.ExtentReporterNG" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.pointr.report.SummaryReport" />
+	</listeners>
+
+	<test name="POI scripts" preserve-order="true">
+		<parameter name="filename" value="input1"></parameter>
+		<classes>
+		<!-- 	<class name="com.pointr.tests.poi.POI_NegativeScenarios" />
+			<class name="com.pointr.tests.poi.POI_PositiveScenarios" />
+			<class name="com.pointr.tests.poi.POIPublish" />
+			<class name="com.pointr.tests.poi.POIExportData" /> -->
+		</classes>
+	</test>
+
+	<test name="Multiple_POI_Scenario_Two" preserve-order="true">
+		<parameter name="filename" value="input"></parameter>
+		<classes>
+		<!--  	<class name="com.pointr.tests.poi.POI_Flow" /> -->
+		</classes>
+	</test>
+	
+	<test name="Multiple_POI_Scenario_One" preserve-order="true">
+		<parameter name="filename" value="input1"></parameter>
+		<classes>
+		<!-- 	<class name="com.pointr.tests.poi.POI_Flow" /> -->
+		</classes>
+	</test>
+ 	
+	<test name="Building Test cases" preserve-order="true">		
+		<classes>
+			<!--  <class name="com.pointr.tests.building.AddBuidingWithSetOfValues" />
+			<class name="com.pointr.tests.building.Building" />
+			<class name="com.pointr.tests.building.EditBuidingWithSetOfValues" />
+			<class name="com.pointr.tests.building.BuildingPublishAndDelete" />
+			<class name="com.pointr.tests.building.BuildingPublish" />
+			<class name="com.pointr.tests.building.BuildingExportData" /> -->
+		</classes>
+	</test>	
+	
+	<test name="MapDesigner Test cases" preserve-order="true">		
+		<classes>
+		 	<class name="com.pointr.tests.mapdesigner.MapDesigner" />
+		<!--	<class name="com.pointr.tests.mapdesigner.MapDesignerExportData" /> -->			
+		</classes>
+	</test>
+
+</suite>

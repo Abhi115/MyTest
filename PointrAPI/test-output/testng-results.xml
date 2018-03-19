@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12643" started-at="2017-10-11T12:23:23Z" finished-at="2017-10-11T12:23:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12643" started-at="2017-10-11T12:23:23Z" finished-at="2017-10-11T12:23:35Z">
+      <class name="com.pointr.configure.Users">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="setup" is-config="true" duration-ms="232" started-at="2017-10-11T13:23:23Z" finished-at="2017-10-11T13:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="1297" started-at="2017-10-11T13:23:23Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="483" started-at="2017-10-11T13:23:24Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="504" started-at="2017-10-11T13:23:25Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="477" started-at="2017-10-11T13:23:25Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="487" started-at="2017-10-11T13:23:26Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="480" started-at="2017-10-11T13:23:26Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="463" started-at="2017-10-11T13:23:27Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[The field userName must be a string or array type with a maximum length of '100'.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="496" started-at="2017-10-11T13:23:27Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lorem ipsum dolor sit amet, consectetuer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="475" started-at="2017-10-11T13:23:28Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="485" started-at="2017-10-11T13:23:28Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="491" started-at="2017-10-11T13:23:29Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password must be at least 6 characters and at most 100 characters long.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="491" started-at="2017-10-11T13:23:29Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password must be at least 6 characters and at most 100 characters long.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="506" started-at="2017-10-11T13:23:30Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!@#$%^]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="466" started-at="2017-10-11T13:23:30Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testtest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="470" started-at="2017-10-11T13:23:31Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="472" started-at="2017-10-11T13:23:31Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test06_Add_New_User(java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test06_Add_New_User" duration-ms="473" started-at="2017-10-11T13:23:32Z" data-provider="RegisterUser" finished-at="2017-10-11T13:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360 User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@360]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[You are successfully registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_Add_New_User -->
+        <test-method status="PASS" signature="test09_Add_New_User_When_Password_And_ConfirmPassword_DoesNotMatch()[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test09_Add_New_User_When_Password_And_ConfirmPassword_DoesNotMatch" duration-ms="465" started-at="2017-10-11T13:23:32Z" finished-at="2017-10-11T13:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test09_Add_New_User_When_Password_And_ConfirmPassword_DoesNotMatch -->
+        <test-method status="PASS" signature="test10_Edit_Password()[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test10_Edit_Password" duration-ms="951" started-at="2017-10-11T13:23:33Z" finished-at="2017-10-11T13:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10_Edit_Password -->
+        <test-method status="PASS" signature="test11_Edit_Password_With_blank_Password_Field()[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test11_Edit_Password_With_blank_Password_Field" duration-ms="941" started-at="2017-10-11T13:23:33Z" finished-at="2017-10-11T13:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11_Edit_Password_With_blank_Password_Field -->
+        <test-method status="PASS" signature="test12_Edit_Role()[pri:0, instance:com.pointr.configure.Users@14acaea5]" name="test12_Edit_Role" duration-ms="983" started-at="2017-10-11T13:23:34Z" finished-at="2017-10-11T13:23:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12_Edit_Role -->
+      </class> <!-- com.pointr.configure.Users -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="POI scripts"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.001">
+  <properties />
+            <testcase name="test_POI_Export_Data" time="0.001" classname="com.pointr.tests.poi.POIExportData">
+                <failure type="org.testng.TestNGException"
+                  message="
+The data provider is trying to pass 4 parameters but the method com.pointr.tests.poi.POIExportData#test_POI_Export_Data takes 3"
+              >
+<![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 4 parameters but the method com.pointr.tests.poi.POIExportData#test_POI_Export_Data takes 3
+  org.testng.internal.Invoker.injectParameters(Invoker.java:1337)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1225)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

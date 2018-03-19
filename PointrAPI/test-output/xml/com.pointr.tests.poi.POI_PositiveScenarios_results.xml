@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="POI scripts"
+           tests="62"
+           failures="3"
+           errors="0"
+           skipped="0"
+           time="112.009">
+  <properties />
+            <testcase name="test05_POI_POST_EndPoint_Add_Publish_Delete_Poi" time="16.261" classname="com.pointr.tests.poi.POI_PositiveScenarios">
+                <failure type="java.lang.AssertionError"
+                  message="1 expectation failed.
+JSON path body.Map doesn&apos;t match.
+Expected: Succeed
+  Actual: Failed
+"
+              >
+<![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path body.Map doesn't match.
+Expected: Succeed
+  Actual: Failed
+
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+  org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+  org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+  io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+  io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$4.call(Unknown Source)
+  io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+  sun.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+  org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+  io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+  io.restassured.specification.ResponseSpecification$content$3.callCurrent(Unknown Source)
+  io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+  io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+  com.pointr.utils.RestUtil.verifyPublishResponse(RestUtil.java:109)
+  com.pointr.tests.poi.POI_PositiveScenarios.test05_POI_POST_EndPoint_Add_Publish_Delete_Poi(POI_PositiveScenarios.java:148)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="test07_POI_POST_EndPoint_Edit" time="1.283" classname="com.pointr.tests.poi.POI_PositiveScenarios">
+                <failure type="java.lang.AssertionError"
+                  message="1 expectation failed.
+JSON path status.errorMessage doesn&apos;t match.
+Expected: Internal Server Error
+  Actual: 
+"
+              >
+<![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path status.errorMessage doesn't match.
+Expected: Internal Server Error
+  Actual: 
+
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+  org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+  org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+  io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+  io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$4.call(Unknown Source)
+  io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+  sun.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+  org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+  io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+  io.restassured.specification.ResponseSpecification$content$3.callCurrent(Unknown Source)
+  io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+  io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+  com.pointr.utils.RestUtil.verifyPoiResponseData(RestUtil.java:98)
+  com.pointr.tests.poi.POI_PositiveScenarios.test07_POI_POST_EndPoint_Edit(POI_PositiveScenarios.java:204)
+  sun.reflect.GeneratedMethodAccessor189.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="test04_POI_POST_EndPoint_Publish_Poi" time="15.417" classname="com.pointr.tests.poi.POI_PositiveScenarios">
+                <failure type="java.lang.AssertionError"
+                  message="1 expectation failed.
+JSON path body.Map doesn&apos;t match.
+Expected: Succeed
+  Actual: Failed
+"
+              >
+<![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path body.Map doesn't match.
+Expected: Succeed
+  Actual: Failed
+
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+  org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+  org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+  io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+  io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$4.call(Unknown Source)
+  io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+  sun.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+  org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+  io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+  io.restassured.specification.ResponseSpecification$content$3.callCurrent(Unknown Source)
+  io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+  io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+  com.pointr.utils.RestUtil.verifyPublishResponse(RestUtil.java:109)
+  com.pointr.tests.poi.POI_PositiveScenarios.test04_POI_POST_EndPoint_Publish_Poi(POI_PositiveScenarios.java:119)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(FutureTask.java:266)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+  java.lang.Thread.run(Thread.java:745)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="test07_POI_POST_EndPoint_Edit" time="1.043" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.514" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="0.735" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.351" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.224" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.641" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.518" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test01_POI_POST_Save" time="1.338" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="0.905" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.171" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.329" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.527" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.214" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.215" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.436" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.313" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.346" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.414" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.526" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="0.890" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="0.930" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.313" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.207" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.065" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test02_POI_POST_Edit" time="1.101" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.496" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="0.554" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.436" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.279" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.051" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.019" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.029" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.440" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.173" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="0.819" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.267" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.285" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test03_POI_POST_EditName" time="1.191" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="0.755" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.665" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.063" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="2.151" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.428" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="0.588" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="0.552" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.432" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.094" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.287" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test6_POI_POST_EndPoint_Save" time="1.127" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="0.964" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.114" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.363" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="0.567" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="7.060" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.129" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="4.006" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.124" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.047" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+                <testcase name="test07_POI_POST_EndPoint_Edit" time="1.227" classname="com.pointr.tests.poi.POI_PositiveScenarios" />
+      
+</testsuite>

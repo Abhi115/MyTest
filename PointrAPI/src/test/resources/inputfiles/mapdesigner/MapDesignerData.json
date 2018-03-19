@@ -1,0 +1,35 @@
+{  
+   "type":"Feature",
+   "properties":{  
+      "id":"poi150209990330339",
+      "level":"1",
+      "name":"SolidWall",
+      "description":"wal",
+      "type":"2",
+      "keywords":"",
+      "group":"1"
+   },
+   "geometry":{  
+      "type":"Polygon",
+      "coordinates":[  
+         [  
+            [  
+               53.53515625,
+               -81.9375
+            ],
+            [  
+               56.34765625,
+               -81.8125
+            ],
+            [  
+               60.890625,
+               -83.75
+            ],
+            [  
+               53.53515625,
+               -81.9375
+            ]
+         ]
+      ]
+   }
+}

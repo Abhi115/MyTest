@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "properties": {
+    "id": "poi150158038504863",
+    "level": "0",
+    "name": "POI_1_08",
+    "description": "POI_1",
+    "type": "1",
+    "keywords": "key1",
+    "startshelf": "",
+    "endshelf": "",
+    "minZoomLevel": "out",
+    "maxZoomLevel": "in"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.43359375,
+          -26.375
+        ],
+        [
+          8.43359375,
+          -20.75
+        ],
+        [
+          15.55859375,
+          -20.75
+        ],
+        [
+          15.55859375,
+          -26.375
+        ],
+        [
+          8.43359375,
+          -26.375
+        ]
+      ]
+    ]
+  }
+}

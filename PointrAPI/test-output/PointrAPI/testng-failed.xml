@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="10" name="Failed suite [PointrAPI]" parallel="tests">
+  <parameter name="filename" value="input1"/>
+  <listeners>
+    <listener class-name="com.pointr.report.ExtentReporterNG"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.pointr.report.SummaryReport"/>
+  </listeners>
+  <test name="Building Test cases(failed)" parallel="tests">
+    <classes>
+      <class name="com.pointr.tests.building.BuildingExportData">
+        <methods>
+          <include name="setup"/>
+          <include name="test_Building_Export_Data" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"/>
+        </methods>
+      </class> <!-- com.pointr.tests.building.BuildingExportData -->
+    </classes>
+  </test> <!-- Building Test cases(failed) -->
+</suite> <!-- Failed suite [PointrAPI] -->
