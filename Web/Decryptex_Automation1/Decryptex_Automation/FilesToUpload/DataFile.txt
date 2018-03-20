@@ -1,0 +1,5 @@
+1. Decryptex Process
+To form the surveillance mosaic, Decryptex programmatically collides client intraday trading data (Trade Order Management System extracts) and
+ accounting data (end of day delta-adjusted exposure, P&L, and holdings measures) with market information (e.g., M&A activity, earnings dates, news heat metrics, etc.) to form a complete picture for analysis.
+Decryptex then runs proprietary search algorithms to uncover statistically anomalous investment activity. 
+The findings are deemed “Items of Interest”, or as we call them “IOIs”.

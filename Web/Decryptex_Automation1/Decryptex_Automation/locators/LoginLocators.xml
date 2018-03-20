@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+	<usernameFile><![CDATA[id=MainContent_UserName]]></usernameFile>
+	<passwordField><![CDATA[id=MainContent_Password]]></passwordField>
+	<loginButton><![CDATA[name=ctl00$MainContent$ctl02]]></loginButton>
+	<invalidLoginAttempt><![CDATA[class=text-danger]]></invalidLoginAttempt>
+	<UserNameValidation><![CDATA[id=MainContent_ctl00]]></UserNameValidation>
+	<passwordValidation><![CDATA[id=MainContent_ctl01]]></passwordValidation>
+	<header><![CDATA[//h1[@id='lblMainTitle' and text()='My Dashboard']]]></header>
+	<ieIssue><![CDATA[//a[@href='https://dfl-cli-dev03/Account/Login.aspx?ReturnUrl']]]></ieIssue>
+	<logout><![CDATA[//a[contains(@onclick,'menuLinkProcessLogOff')]]]></logout>
+</Locators>

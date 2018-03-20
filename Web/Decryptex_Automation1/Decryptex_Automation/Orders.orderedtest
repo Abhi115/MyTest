@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orders" storage="d:\decryptex_automation\qa\decryptex_automation\decryptex_automation\orders.orderedtest" id="7d14d917-b728-444d-a805-a369e1622317" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="f767f00e-2198-cc16-1af7-956b00d4603e" name="LoginWithEmptyCredentials" storage="bin\decryptex_automation.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="0e417cdb-f6cb-a93a-3786-2b28aad37ddd" name="LoginWithInvalidCredentials" storage="bin\decryptex_automation.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="888ffee8-09be-a633-4d9c-26acf509f627" name="LoginWithValidCredentials" storage="bin\decryptex_automation.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
