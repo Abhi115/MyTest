@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<MenuNatera>
+	    <EducationCenter><![CDATA[//a[contains(text(),'Education Center')]]]></EducationCenter>		
+	</MenuNatera>		
+	<HelpCenterHeader>
+		<FAQ><![CDATA[//a[@href='/help']]]></FAQ>
+		<HeaderTxt><![CDATA[//header/h2]]></HeaderTxt>
+	</HelpCenterHeader>	
+	<HelpCenterPage>
+		<SearchBox><![CDATA[//input[@class='form-control input-lg help-filter']]]></SearchBox>				
+		<NoResult><![CDATA[//div[@id='no-results']]]></NoResult>
+		<NoResultPara><![CDATA[//div[@id='no-results']/p]]></NoResultPara>				
+	</HelpCenterPage>	
+	
+	<PageHeaderData>
+	<HelpCenter><![CDATA[Help Center]]></HelpCenter>
+	
+	</PageHeaderData>				
+</Locators>

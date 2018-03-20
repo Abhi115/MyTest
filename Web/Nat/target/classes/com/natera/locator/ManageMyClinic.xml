@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+	<ClinicName><![CDATA[Reproductive Care Center - Utah]]></ClinicName>
+	
+	
+	<MenuNatera>
+	    <CourierServices><![CDATA[//a[contains(@href,'submenu-clinic_services')]]]></CourierServices>
+		<ManageMyClinic><![CDATA[//a[contains(@href,'/admin/clinics')]]]></ManageMyClinic>
+		<HeaderLocator><![CDATA[//h2[contains(text(),'Manage Clinics')]]]></HeaderLocator>
+		<ClinicSearchBox><![CDATA[//span[contains(@class,'value__wrapper')]]]></ClinicSearchBox>
+		<SearchBox><![CDATA[//div[contains(@class,'Select-placeholder')]]]></SearchBox>
+		
+	</MenuNatera>
+	
+	<ManageClinicPage>
+		<PageHeader><![CDATA[//header[@class='page-header']/h2]]></PageHeader>
+		<TableRow><![CDATA[//table[@id='clinic-admin-table']/tbody/tr]]></TableRow>
+		<InviteUserBtn><![CDATA[//button[contains(@data-target, '#invite-user-modal') and contains(text(), 'Invite User')]]]></InviteUserBtn>
+		<ClearClinicSelectionBtn><![CDATA[//a[contains(@href,'/dashboard?clinic_toggle_id=-1')]]]></ClearClinicSelectionBtn>
+	</ManageClinicPage>
+	
+	<PageData>
+		<HeaderTxt><![CDATA[Clinics]]></HeaderTxt>
+	</PageData>
+	
+	<InviteSomeOnePopup>
+		<HeaderTxt><![CDATA[//form[@id='invite-user-form']//h4[@id='invite-user-title']]]></HeaderTxt>
+		<UserEmailBox><![CDATA[//form[@id='invite-user-form']//input[@id='invite_email']]]></UserEmailBox>
+		
+		<MedicalProfessionalCheckBox><![CDATA[//form[@id='invite-user-form']//input[@value='2']]]></MedicalProfessionalCheckBox>
+		<ADSalesCheckBox><![CDATA[//form[@id='invite-user-form']//input[@value='1']]]></ADSalesCheckBox>
+	<!--  	<ASRSalesCheckbox><![CDATA[//form[@id='invite-user-form']/div[2]/div[2]/div[3]/label/input]]></ASRSalesCheckbox>
+		<ClinicAdmin><![CDATA[//form[@id='invite-user-form']/div[2]/div[2]/div[4]/label/input]]></ClinicAdmin>
+		-->
+		<InviteUserBtn><![CDATA[//form[@id='invite-user-form']//input[@type='submit']]]></InviteUserBtn>
+		<CancelBtn><![CDATA[//form[@id='invite-user-form']//button[contains(text(), 'Cancel')]]]></CancelBtn>
+	</InviteSomeOnePopup>
+	
+	<EmailAddress><![CDATA[akhileshk2@360logica.com]]></EmailAddress>
+	
+	<InvitationSendConfLocator><![CDATA[//div[@id='alerts']/div]]></InvitationSendConfLocator>
+	<InvitationSendConfMsg><![CDATA[has been invited to the clinic.]]></InvitationSendConfMsg>
+
+</Locators>

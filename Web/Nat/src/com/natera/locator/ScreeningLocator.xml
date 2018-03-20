@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<MenuNatera>
+	    <PatientServices><![CDATA[//a[contains(@href,'submenu-patient_services')]]]></PatientServices>
+		<ScreeningLocator><![CDATA[//*[contains(@href, '/psc')]]]></ScreeningLocator>
+	</MenuNatera>	
+	<ScrnneingLocatorPage>
+		<iframe><![CDATA[//iframe[contains(@src,'https://psc.natera.com')]]]></iframe>
+		<PageHeasder><![CDATA[//*[contains(@class, 'panel-body text-center')]/h4]]></PageHeasder>
+		<CityStateZip><![CDATA[//*[@id='location']]]></CityStateZip>
+		<Distance><![CDATA[//*[@id='distance']]]></Distance>
+		<SearchBtn><![CDATA[//*[contains(@class, 'btn btn-default btn-primary') and contains(@value, 'Search')]]]></SearchBtn>
+		<SearchResultTxt><![CDATA[//*[contains(@class, 'h4 page-header ng-binding')]]]></SearchResultTxt>
+		<TableRow><![CDATA[//*[@id='psc']//table[contains(@class, 'table')]/tbody/tr]]></TableRow>		
+	</ScrnneingLocatorPage>		
+</Locators>

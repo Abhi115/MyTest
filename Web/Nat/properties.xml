@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+    
+	<property name="ws.home" value="."/>
+	<property name="test.dest" value="${ws.home}/bin"/>
+	<property name="test.lib" value="${ws.home}/lib"/>
+	<property name="test.src" value="${ws.home}/src/com/natera"/>
+	<property name="test.result" value="${ws.home}/test-output"/>
+	<property name="test.screenshot" value="${ws.home}/screenshots"/>
+	
+</project>

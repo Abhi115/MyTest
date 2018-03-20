@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Print Req Form page test suite" verbose="1" >
+ <test name="Regression testcases for Print Req Form page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_046_PrintReqFormPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_047_DownloadForm"/>
+    	<class name="com.natera.testScripts.regression.RTC_048_PrintForm"/>		
+    </classes>      
+ </test>
+</suite>

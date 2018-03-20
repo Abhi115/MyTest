@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Screening Locator page test suite" verbose="1" >
+ <test name="Regression testcases for Screening Locator page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_083_ScreeningLocatorPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_084_SearchHavingResultForTenMiles"/>    	
+    	<class name="com.natera.testScripts.regression.RTC_085_SearchHavingResultForHundredMiles"/>
+    	<class name="com.natera.testScripts.regression.RTC_086_SearchHavingNoResultForFiftyMiles"/>	
+    </classes>      
+ </test>
+</suite>

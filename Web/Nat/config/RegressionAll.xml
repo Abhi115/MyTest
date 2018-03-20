@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5"  verbose="1" name="RegressionAll" parallel="methods" annotations="JDK">
+  <test name="RegressionAll" junit="false" preserve-order="true">
+    <classes>
+    	<!--  
+    	<class name="com.natera.testScripts.regression.RTC_001_Signup"/>
+    	<class name="com.natera.testScripts.regression.RTC_002_SignupWithExistingID"/>
+    	<class name="com.natera.testScripts.regression.RTC_003_CorrectEmailIDLinkBehavior"/>
+    	<class name="com.natera.testScripts.regression.RTC_004_ResetPassword"/>
+    	<class name="com.natera.testScripts.regression.RTC_005_ResendConfirmationInstructions"/>
+    	<class name="com.natera.testScripts.regression.RTC_006_NeedUnlockAccount"/>
+    	<class name="com.natera.testScripts.regression.RTC_007_UserLoggedOut"/>
+    	<class name="com.natera.testScripts.regression.RTC_009_UserSignInWithInvalidId"/>
+    	<class name="com.natera.testScripts.regression.RTC_010_UserSignInWithWrongPassword"/>    	
+    	<class name="com.natera.testScripts.regression.RTC_011_RememberMeCheckbox"/>
+    	
+    	
+    	<class name="com.natera.testScripts.regression.RTC_012_SearchExistingCase"/>
+    	<class name="com.natera.testScripts.regression.RTC_013_SearchNotExistingCase"/>
+    	<class name="com.natera.testScripts.regression.RTC_014_ContactNateraIconFunction"/>
+    	<class name="com.natera.testScripts.regression.RTC_015_ManageAccountIcon"/>
+    	<class name="com.natera.testScripts.regression.RTC_016_UserProfileFromManageAccountIcon"/>
+    	<class name="com.natera.testScripts.regression.RTC_017_ResultDurationDropdown"/>
+    	<class name="com.natera.testScripts.regression.RTC_018_DashboardProcessingLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_019_DashboardDeliveredLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_020_DashboardViewResultLink"/>     	
+    	<class name="com.natera.testScripts.regression.RTC_021_DashboardOrderTestsLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_022_DashBoardContactNateraLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_023_DashboardOrderKitsLink"/>	-->
+    	
+    	
+    	<class name="com.natera.testScripts.regression.RTC_024_TestResultPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_025_TestResultCasesPerPage"/>
+    	<class name="com.natera.testScripts.regression.RTC_026_TestResultPatientSelection"/>
+    	 <!-- <class name="com.natera.testScripts.regression.RTC_027_TestResultDownloadResult"/>
+    	<class name="com.natera.testScripts.regression.RTC_028_TestResultSearchByID"/>
+    	<class name="com.natera.testScripts.regression.RTC_029_TestResultSearchByTest"/>
+    	<class name="com.natera.testScripts.regression.RTC_030_TestResultSearchByStatus"/>    	
+    	<class name="com.natera.testScripts.regression.RTC_031_TestResultSearchByResult"/>
+    	<class name="com.natera.testScripts.regression.RTC_032_TestResultFilterByTest"/>
+    	<class name="com.natera.testScripts.regression.RTC_033_TestResultFilterByStatus"/>
+    	<class name="com.natera.testScripts.regression.RTC_034_TestResultFilterByResult"/>
+    	<class name="com.natera.testScripts.regression.RTC_035_TestResultFilterByPhysician"/>
+    	
+    	
+    	<class name="com.natera.testScripts.regression.RTC_036_OrderATestPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_037_SaveAndPrintFormWithoutFiliingData"/>
+    	<class name="com.natera.testScripts.regression.RTC_038_SaveFormInDraft"/>
+    	<class name="com.natera.testScripts.regression.RTC_039_OpenDraftForm"/>
+    	<class name="com.natera.testScripts.regression.RTC_040_UpdateAndSaveDraftForm"/>    	
+    	<class name="com.natera.testScripts.regression.RTC_041_UpdateSavePrintAndDraftForm"/>
+    	<class name="com.natera.testScripts.regression.RTC_042_PanormaHorizonFormSaveAndPrint"/>
+    	<class name="com.natera.testScripts.regression.RTC_043_PanormaFormSaveAndPrint"/>
+    	<class name="com.natera.testScripts.regression.RTC_044_HorizonFormSaveAndPrint"/>
+    	<class name="com.natera.testScripts.regression.RTC_045_AnoraFormSaveAndPrint"/>
+    	
+    	
+    	<class name="com.natera.testScripts.regression.RTC_046_PrintReqFormPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_047_DownloadForm"/>
+    	<class name="com.natera.testScripts.regression.RTC_048_PrintForm"/>
+    	
+    	
+    	<class name="com.natera.testScripts.regression.RTC_049_OrderKitsPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_050_AddKitsToCart"/>
+    	<class name="com.natera.testScripts.regression.RTC_051_RemoveKitsCart"/>
+    	<class name="com.natera.testScripts.regression.RTC_052_FillShippingAddress"/>
+    	<class name="com.natera.testScripts.regression.RTC_053_AddOtherAddress"/>
+    	<class name="com.natera.testScripts.regression.RTC_054_PlaceOrder"/>
+    	<class name="com.natera.testScripts.regression.RTC_055_MoreOrderKitsLink"/>
+    	
+    	
+    	<class name="com.natera.testScripts.regression.RTC_056_OrderBrochuresPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_057_DownloadPDF"/>
+    	<class name="com.natera.testScripts.regression.RTC_058_AddBrochurToCart"/>
+    	<class name="com.natera.testScripts.regression.RTC_059_RemoveBrochures"/>
+    	<class name="com.natera.testScripts.regression.RTC_060_FillShippingInfo"/>
+    	<class name="com.natera.testScripts.regression.RTC_061_FillOtherShippingAddress"/>
+    	<class name="com.natera.testScripts.regression.RTC_062_PlaceBrochuresOrder"/>
+    	<class name="com.natera.testScripts.regression.RTC_063_OrderMoreBrochureslink"/>
+    	
+    	
+    	<class name="com.natera.testScripts.regression.RTC_064_ContactNateraPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_065_MessagePerPage"/>
+    	<class name="com.natera.testScripts.regression.RTC_066_composeAndSendNewMessage"/>
+    	<class name="com.natera.testScripts.regression.RTC_067_FilterMessageSearchBoxForNoMatching"/>
+    	<class name="com.natera.testScripts.regression.RTC_068_FilterMessageSearchBoxWithMatching"/>
+    	<class name="com.natera.testScripts.regression.RTC_069_OpenMessage"/>
+    	<class name="com.natera.testScripts.regression.RTC_070_ReplyOnMessage"/>       -->
+    </classes>
+  </test>
+</suite>

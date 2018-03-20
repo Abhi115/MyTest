@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Order A Test page test suite" verbose="1" >
+ <test name="Regression testcases for Order A Test page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_036_OrderATestPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_037_SaveAndPrintFormWithoutFiliingData"/>
+    	<class name="com.natera.testScripts.regression.RTC_038_SaveFormInDraft"/>
+    	<class name="com.natera.testScripts.regression.RTC_039_OpenDraftForm"/>
+    	<class name="com.natera.testScripts.regression.RTC_040_UpdateAndSaveDraftForm"/>    	
+    	<class name="com.natera.testScripts.regression.RTC_041_UpdateSavePrintAndDraftForm"/>
+    	<class name="com.natera.testScripts.regression.RTC_042_PanormaHorizonFormSaveAndPrint"/>
+    	<class name="com.natera.testScripts.regression.RTC_043_PanormaFormSaveAndPrint"/>
+    	<class name="com.natera.testScripts.regression.RTC_044_HorizonFormSaveAndPrint"/>
+    	<class name="com.natera.testScripts.regression.RTC_045_AnoraFormSaveAndPrint"/>		
+    </classes>      
+ </test>
+</suite>

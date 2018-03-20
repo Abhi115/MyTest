@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllSmoke" verbose="1" > 
+ 
+ <test name="SmokeTestcases" junit="false" preserve-order="true">
+    <classes>
+      <class name="com.natera.testScripts.STC_000_VerifyLogin"/>
+      <class name="com.natera.testScripts.STC_001_VerifyDashboard"/>
+      <class name="com.natera.testScripts.STC_002_VerifyTestresults"/>
+      <class name="com.natera.testScripts.STC_003_VerifyOrderTest"/>
+      <class name="com.natera.testScripts.STC_004_VerifyPrintReqForm"/>   
+      <class name="com.natera.testScripts.STC_005_VerifyOrderKits"/>
+      <class name="com.natera.testScripts.STC_006_VerifyOrderBrochures"/>
+      <class name="com.natera.testScripts.STC_007_ContactNatera"/>
+      <class name="com.natera.testScripts.STC_008_VerifyEducationCenter"/>
+     <!-- 
+      <class name="com.natera.testScripts.STC_009_VerifyCourierPickup"/>
+      <class name="com.natera.testScripts.STC_010_VerifyScreeningLocator"/>
+      <class name="com.natera.testScripts.STC_011_VerifyManageMyClinic"/>
+      <class name="com.natera.testScripts.STC_012_VerifyManagePhysicians"/>
+      <class name="com.natera.testScripts.STC_013_VerifyHelpCenter"/>		
+       -->
+      
+    </classes>
+  </test>
+ <!--  
+ 
+  
+  
+  <test name="Smoke testcases1 for Login in Application" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_000_VerifyLogin"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases2 for Dashboard page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_001_VerifyDashboard"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases3 for TestResult page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_002_VerifyTestresults"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases4 for Order A Test page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_003_VerifyOrderTest"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases5 for Print Req Forms page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_004_VerifyPrintReqForm"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases6 for Order Kits page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_005_VerifyOrderKits"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases7 for Order Brochures page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_006_VerifyOrderBrochures"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases8 for Contact Natera page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_007_ContactNatera"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases9 for Education Center page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_008_VerifyEducationCenter"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases10 for Courier Pickup page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_009_VerifyCourierPickup"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases11 for Screening Locator page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_010_VerifyScreeningLocator"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases12 for Manage My Clinic page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_011_VerifyManageMyClinic"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases13 for Manage Provider page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_012_VerifyManagePhysicians"/>  	
+    </classes>      
+ </test>
+ 
+ <test name="Smoke testcases14 for Help Center page" >
+    <classes>
+    	<class name="com.natera.testScripts.STC_013_VerifyHelpCenter"/>  	
+    </classes>      
+ </test>
+ -->
+</suite>

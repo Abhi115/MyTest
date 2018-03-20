@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Order Kits page test suite" verbose="1" >
+ <test name="Regression testcases for Order Kits page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_049_OrderKitsPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_050_AddKitsToCart"/>
+    	<class name="com.natera.testScripts.regression.RTC_051_RemoveKitsCart"/>
+    	<class name="com.natera.testScripts.regression.RTC_052_FillShippingAddress"/>
+    	<class name="com.natera.testScripts.regression.RTC_053_AddOtherAddress"/>
+    	<class name="com.natera.testScripts.regression.RTC_054_PlaceOrder"/>
+    	<class name="com.natera.testScripts.regression.RTC_055_MoreOrderKitsLink"/>		
+    </classes>      
+ </test>
+</suite>

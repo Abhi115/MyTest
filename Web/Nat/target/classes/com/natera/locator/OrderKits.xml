@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+	<MenuNatera>
+		<OrderSupplies><![CDATA[//*[@href='#submenu-order_supplies']]]></OrderSupplies>
+		<SubMenuOrderSupplies>
+			<OrderKits><![CDATA[//*[@href='/order_kits']]]></OrderKits>
+		</SubMenuOrderSupplies>
+	</MenuNatera>
+
+	<OrderKitsPage>
+
+		<OrderKitsHeaderTabs>
+			<Panorama><![CDATA[//a[contains(@class, 'smoothscroll') and contains(text(), 'Panorama')]]]></Panorama>
+			<Horizon><![CDATA[//a[contains(@class, 'smoothscroll') and contains(text(), 'Horizon')]]]></Horizon>
+			<ComboKit><![CDATA[//a[contains(@class, 'smoothscroll') and contains(text(), 'Combo Kit')]]]></ComboKit>
+			<Anora><![CDATA[//a[contains(@class, 'smoothscroll') and contains(text(), 'Anora')]]]></Anora>
+			<Spectrum><![CDATA[//a[contains(@class, 'smoothscroll') and contains(text(), 'Spectrum')]]]></Spectrum>
+		</OrderKitsHeaderTabs>
+
+		<AddToCart>
+			<Panorama><![CDATA[//button[@data-category='Panorama' and contains(text(), 'Add to Cart')]]]></Panorama>
+			<Horizon><![CDATA[//button[@data-category='Horizon' and contains(text(), 'Add to Cart')]]]></Horizon>
+			<ComboKit><![CDATA[//button[@data-category='Combo Kit' and contains(text(), 'Add to Cart')]]]></ComboKit>
+			<Anora><![CDATA[//button[@data-category='Anora' and contains(text(), 'Add to Cart')]]]></Anora>
+			<Spectrum><![CDATA[//button[@data-category='Spectrum' and contains(text(), 'Add to Cart')]]]></Spectrum>
+		</AddToCart>
+
+		<ShopingCartList>
+			<ListRowCount><![CDATA[//*[@id='shopping-cart-list']//table/tbody/tr]]></ListRowCount>
+			<ItemIncrease><![CDATA[//div[@id='shopping-cart-list']//table/tbody/tr//input[contains(@type, 'number')]]]></ItemIncrease>
+		</ShopingCartList>
+
+		<ShippingInfo>
+			<ContactName><![CDATA[//input[@id='contact_name']]]></ContactName>
+			<SelectClinic><![CDATA[//select[@id='clinic_id' and @name='clinic_id']]]></SelectClinic>
+			<SelectAddress><![CDATA[//select[@id='address_id']]]></SelectAddress>
+			<ShipAnotherAddress><![CDATA[//input[@id='address-override-toggle']]]></ShipAnotherAddress>
+
+			<AnotherAddress>
+				<Street><![CDATA[//input[@id='new_address_address']]]></Street>
+				<City><![CDATA[//input[@id='new_address_city']]]></City>
+				<State><![CDATA[//input[@id='new_address_state']]]></State>
+				<Zip><![CDATA[//input[@id='new_address_zip']]]></Zip>
+				<Country><![CDATA[//select[@id='new_address_countrycode']]]></Country>
+			</AnotherAddress>
+		</ShippingInfo>
+
+		<PlaceOrderBtn><![CDATA[//input[@id='place_order_kits_button']]]></PlaceOrderBtn>
+		<OrderPlacedMsg><![CDATA[//*[contains(@class, 'alert alert-success')]]]></OrderPlacedMsg>
+		<OrderMoreKits><![CDATA[//div[@id='content']//a[contains(text(), 'Need to order more kits?')]]]></OrderMoreKits>
+
+	</OrderKitsPage>
+
+	<InputData>
+		<ContactName><![CDATA[Akhilesh]]></ContactName>
+		<SelectClinic><![CDATA[Reproductive Care Center - Utah]]></SelectClinic>
+		<SelectAddress><![CDATA[10150 S. Petunia Way Sandy, UT, 84092]]></SelectAddress>
+		<Street><![CDATA[1596-Street]]></Street>
+		<City><![CDATA[Boston]]></City>
+		<State><![CDATA[New York]]></State>
+		<Zip><![CDATA[12121]]></Zip>
+		<Country><![CDATA[United States]]></Country>
+	</InputData>
+
+
+</Locators>

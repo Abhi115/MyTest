@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<MenuNatera>
+		<EducationCenter><![CDATA[//a[contains(text(),'Education Center')]]]></EducationCenter>
+		<Resources><![CDATA[//a[contains(@href,'/information/educational_materials')]]]></Resources>
+		<ContentHeader><![CDATA[//div[contains(@class,'secondary-logo txt')]/a[contains(@target,'_blank')]]]></ContentHeader>
+	</MenuNatera>
+	
+	<informationTest>
+	
+	      <Horizon><![CDATA[//img[@src='/assets/images/logos/horizon.png']]]></Horizon>
+	      <Panorama><![CDATA[//img[@src='/assets/images/logos/panorama.png']]]></Panorama>
+	      <Anora><![CDATA[//img[@src='/assets/images/logos/anora.png']]]></Anora>  
+	      <SelectPanel><![CDATA[//select[@class='form-control']]]></SelectPanel>
+	      <ClickButton><![CDATA[//button[contains(@class,'btn btn-primary')]]]></ClickButton>
+	      
+	
+	</informationTest>
+	
+	<EducationHeader>
+		<iframe><![CDATA[//a[@href='/information/test']]]></iframe>
+		<ContentHeader><![CDATA[//h2]]></ContentHeader>
+		<HorizonHeader><![CDATA[//a[@data-toggle='tab']]]></HorizonHeader>
+		
+		
+	</EducationHeader>
+	
+	<EducationCenterPage>
+		<Natera>
+			<NateraLink><![CDATA[//a[contains(@href,'javascript:void(0)') and contains(text(), 'Natera')]]]></NateraLink>
+			<BillingLink><![CDATA[//*[contains(@class, 'hooked') and contains(text(), 'Billing')]]]></BillingLink>
+			<BillingPageHeader><![CDATA[//h1[contains(@class, 'hub-heading')]]]></BillingPageHeader>
+			
+			<MobileToggle><![CDATA[//*[@class='nav-toggle']]]></MobileToggle>
+			<MobileNateraLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[1]/a[contains(@href,'javascript:void(0)') and contains(text(), 'Natera')]]]></MobileNateraLink>
+			<MobileBillingLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[1]/div/ul/li/a[contains(@class, 'hooked') and contains(text(), 'Billing')]]]></MobileBillingLink>
+			
+		</Natera>
+		<Panorama>
+			<PanoramaLink><![CDATA[//*[contains(@href, 'javascript') and contains(text(), 'Panorama')]]]></PanoramaLink>
+			<MobilePanoramaLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[2]/a]]></MobilePanoramaLink>
+			
+			
+			<PatientBrochuresSubLink><![CDATA[//*[contains(@class, 'hooked') and contains(text(), 'Patient Brochures')]]]></PatientBrochuresSubLink>
+			<MobilePatientBrochuresSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[2]/div/ul/li[1]/a]]></MobilePatientBrochuresSubLink>
+			<PatientBrochuresSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></PatientBrochuresSubLinkPageHeader>
+			
+			<FactSheetsMoreSubLink><![CDATA[//*[contains(@class, 'hooked') and contains(text(), 'Fact Sheets & More')]]]></FactSheetsMoreSubLink>
+			<MobileFactSheetsMoreSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[2]/div/ul/li[2]/a]]></MobileFactSheetsMoreSubLink>
+			<FactSheetsMoreSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></FactSheetsMoreSubLinkPageHeader>			
+		</Panorama>
+		<Horizon>
+			<HorizonLink><![CDATA[//*[contains(@href, 'javascript') and contains(text(), 'Horizon')]]]></HorizonLink>
+			<MobileHorizonLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[3]/a]]></MobileHorizonLink>
+			
+			<ForPatientsSubLink><![CDATA[//*[contains(@class, 'hooked') and contains(text(), 'For Patients')]]]></ForPatientsSubLink>
+			<MobileForPatientsSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[3]/div/ul/li[1]/a]]></MobileForPatientsSubLink>
+			
+			<ForPatientsSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></ForPatientsSubLinkPageHeader>
+			
+			<Post-TestSubLink><![CDATA[//*[contains(@class, 'hooked') and contains(text(), 'Post-Test Counseling')]]]></Post-TestSubLink>
+			<MobilePost-TestSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[3]/div/ul/li[2]/a]]></MobilePost-TestSubLink>
+			
+			<Post-TestSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></Post-TestSubLinkPageHeader>
+			
+			<FactSheetsMoreSubLink><![CDATA[(//*[contains(@class, 'hooked') and contains(text(), 'Fact Sheets & More')])[2]]]></FactSheetsMoreSubLink>
+			<MobileFactSheetsMoreSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[3]/div/ul/li[3]/a]]></MobileFactSheetsMoreSubLink>
+			
+			<FactSheetsMoreSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></FactSheetsMoreSubLinkPageHeader>		
+		</Horizon>
+		<Anora>
+			<AnoraLink><![CDATA[//*[contains(@href, 'javascript') and contains(text(), 'Anora')]]]></AnoraLink>
+			<MobileAnoraLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[4]/a]]></MobileAnoraLink>
+			
+			<PatientSupplementsSubLink><![CDATA[//*[contains(@class, 'hooked') and contains(text(), 'Patient Supplements')]]]></PatientSupplementsSubLink>
+			<MobilePatientSupplementsSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[4]/div/ul/li[1]/a]]></MobilePatientSupplementsSubLink>
+			<PatientSupplementsSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></PatientSupplementsSubLinkPageHeader>
+			
+			<FactSheetsMoreSubLink><![CDATA[(//*[contains(@class, 'hooked') and contains(text(), 'Fact Sheets & More')])[3]]]></FactSheetsMoreSubLink>
+			<MobileFactSheetsMoreSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[4]/div/ul/li[2]/a]]></MobileFactSheetsMoreSubLink>
+			
+			<FactSheetsMoreSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></FactSheetsMoreSubLinkPageHeader>			
+		</Anora>
+			
+		<Spectrum>
+			<SpectrumLink><![CDATA[//*[contains(@href, 'javascript') and contains(text(), 'Spectrum')]]]></SpectrumLink>
+			<MobileSpectrumLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[5]/a]]></MobileSpectrumLink>
+			
+			<ForPatientsSubLink><![CDATA[(//*[contains(@class, 'hooked') and contains(text(), 'For Patients')])[2]]]></ForPatientsSubLink>
+			<MobileForPatientsSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[5]/div/ul/li[1]/a]]></MobileForPatientsSubLink>
+			
+			<ForPatientsSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></ForPatientsSubLinkPageHeader>
+			
+			<ForProviderSubLink><![CDATA[//*[contains(@class, 'hooked') and contains(text(), 'For Providers')]]]></ForProviderSubLink>
+			<MobileForProviderSubLink><![CDATA[//*[@id='left-nav-phone']/div/div[2]/ul/li[5]/div/ul/li[2]/a]]></MobileForProviderSubLink>
+			
+			<ForProviderSubLinkPageHeader><![CDATA[//div[contains(@class, 'description-block')]/p]]></ForProviderSubLinkPageHeader>
+		</Spectrum>
+		
+	
+	</EducationCenterPage>
+		
+</Locators>

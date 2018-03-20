@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Help Center page test suite" verbose="1" >
+ <test name="Regression testcases1 for Help Center page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_098_HelpCenterPageVerification"/> 
+    	<class name="com.natera.testScripts.regression.RTC_099_ExpandingAndCollapsingLinks"/>
+    	<class name="com.natera.testScripts.regression.RTC_100_SearchingForMatchingResult"/> 	
+    </classes>      
+ </test>
+</suite>
+
+
+    	

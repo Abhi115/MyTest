@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locator>
+
+	<MenuNatera>
+		<TestResults><![CDATA[//*[contains(@href, 'case_results')]]]></TestResults>
+	</MenuNatera>
+	
+	<TestResultPage>
+		<PageHeader><![CDATA[//h2]]></PageHeader>
+		<DownloadResultsBtn><![CDATA[//button[contains(@class,'btn btn-primary')]]]></DownloadResultsBtn>
+		<ResultCountDropdown><![CDATA[//select[contains(@class,'input-sm auto-width inline form-control')]]]></ResultCountDropdown>
+		<TableRows><![CDATA[//table[contains(@class,'table table-hover table-condensed dataTable')]/tbody/tr]]></TableRows>
+		<SelectAllPatientCheckbox><![CDATA[//div[contains(@class,'select-checkbox')]]]></SelectAllPatientCheckbox>
+		<SelectAllPatientChecked><![CDATA[//th[not(contains(@class, 'selected'))]]]></SelectAllPatientChecked>
+		<SelectAllPatientNotChecked><![CDATA[//th[not(contains(@class, 'selected'))]]]></SelectAllPatientNotChecked>
+		<TestFilter>
+			<TestFilterBtn><![CDATA[//*[contains(@class, 'sorting') and contains(@aria-label, 'Test')]//button]]></TestFilterBtn>
+			<NonBtn></NonBtn>		
+		</TestFilter>
+		<StatusFilter>
+			<StatusFilterBtn><![CDATA[//*[contains(@class, 'sorting') and contains(@aria-label, 'Status')]//button]]></StatusFilterBtn>
+			<NonBtn></NonBtn>
+		</StatusFilter>
+		
+		<ResultFilter>
+			<ResultFilterBtn><![CDATA[//*[contains(@class, 'sorting') and contains(@aria-label, 'Result')]//button]]></ResultFilterBtn>
+			<NoneBtn><![CDATA[//*[contains(@class, 'filter-right sorting') and contains(@aria-label, 'Result')]//button[contains(text(), 'None')]]]></NoneBtn>
+			<AllBtn><![CDATA[//*[contains(@class, 'filter-right sorting') and contains(@aria-label, 'Result')]//button[contains(text(), 'All')]]]></AllBtn>
+			<HighRiskItem><![CDATA[//*[contains(@class, 'filter-right sorting') and contains(@aria-label, 'Result')]//input[contains(@type, 'checkbox') and contains(@value, 'High Risk')]]]></HighRiskItem>
+			<ResultTab><![CDATA[//*[contains(@class, 'filter-right sorting') and contains(@aria-label, 'Result')]]]></ResultTab>		
+		</ResultFilter>
+		<PhysicianFilter>
+			<PhysicianFilterBtn><![CDATA[//*[contains(@class, 'sorting') and contains(@aria-label, 'Physician')]//button]]></PhysicianFilterBtn>
+			<NoneBtn><![CDATA[//*[contains(@class, 'filter-right sorting') and contains(@aria-label, 'Physician')]//button[contains(text(), 'None')]]]></NoneBtn>
+		</PhysicianFilter>
+		<SearchBox><![CDATA[//input[contains(@class,'form-control')]]]></SearchBox>
+		<PatientPageHeader><![CDATA[//h4[contains(@class,'text-success pull-right')]]]></PatientPageHeader>
+		<ReleasePatientBtn><![CDATA[//button[@id='release-to-patient-button']]]></ReleasePatientBtn>
+		<DownloadResultBtn><![CDATA[//a[contains(@href,'/case_results/documents')]]]></DownloadResultBtn>			
+	</TestResultPage>
+	
+	<ReleasePatientPopup>
+		<PopupTitle><![CDATA[//h4[@id='release-to-patient-title']]]></PopupTitle>
+		<EditEmailId><![CDATA[//a[@id='release-edit-email']]]></EditEmailId>
+		<PatientEmailBox><![CDATA[//input[@id='release_override_email']]]></PatientEmailBox>
+		<SendMeCopyCheckBox><![CDATA[//input[@id='send_email_copy']]]></SendMeCopyCheckBox>
+		<PatientNotesBtn><![CDATA[//button[@id='add-notes-button']]]></PatientNotesBtn>
+		<PatientNoteTxtBox><![CDATA[//textarea[@id='release_notes']]]></PatientNoteTxtBox>
+		<ReleaseAuthorization><![CDATA[//input[@id='authorize-release-checkbox']]]></ReleaseAuthorization>
+		<ReleaseResultBtn><![CDATA[//button[@id='release-results-button']]]></ReleaseResultBtn>
+		<SendResultMsg><![CDATA[//div[@id='alerts']/div]]></SendResultMsg>
+	</ReleasePatientPopup>
+	
+	<PageData>
+		<TestResultPageHeaderTxt><![CDATA[Case Results]]></TestResultPageHeaderTxt>
+		<TestResult><![CDATA[HIGH RISK]]></TestResult>
+		<TestTypeHorizon><![CDATA[Horizon]]></TestTypeHorizon>	
+	</PageData>
+
+
+</locator>

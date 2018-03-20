@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Result page test suite" verbose="1" >
+ <test name="Regression testcases for Test result page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_024_TestResultPageVerification"/> 
+    	<class name="com.natera.testScripts.regression.RTC_025_TestResultCasesPerPage"/>
+    	<class name="com.natera.testScripts.regression.RTC_026_TestResultPatientSelection"/>
+    	<class name="com.natera.testScripts.regression.RTC_027_TestResultDownloadResult"/>
+    	<class name="com.natera.testScripts.regression.RTC_028_TestResultSearchByID"/>
+    	<class name="com.natera.testScripts.regression.RTC_029_TestResultSearchByTest"/>
+    	<class name="com.natera.testScripts.regression.RTC_030_TestResultSearchByStatus"/>
+    	<class name="com.natera.testScripts.regression.RTC_031_TestResultSearchByResult"/>
+    	<class name="com.natera.testScripts.regression.RTC_032_TestResultFilterByTest"/>
+    	<class name="com.natera.testScripts.regression.RTC_033_TestResultFilterByStatus"/>
+    	<class name="com.natera.testScripts.regression.RTC_034_TestResultFilterByResult"/>
+    	<class name="com.natera.testScripts.regression.RTC_035_TestResultFilterByPhysician"/>		
+    </classes>      
+ </test>
+</suite>

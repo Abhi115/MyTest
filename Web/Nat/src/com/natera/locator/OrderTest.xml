@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+	<MenuNatera>
+		<TestOrdering><![CDATA[//*[contains(@href, 'submenu-test_ordering')]]]></TestOrdering>
+		<SubMenuTestOrdering>
+			<TestAOrder><![CDATA[//a[@href='/test_ordering/new']]]></TestAOrder>
+		</SubMenuTestOrdering>
+	</MenuNatera>
+	
+	<OrderATestPage>
+			<PageHeader><![CDATA[//h2]]></PageHeader>
+			<SelectATest>
+				<PanoramaAndHorizon><![CDATA[//*[@for='selected_test_panorama_horizon_combo']]]></PanoramaAndHorizon>
+				<Panorama><![CDATA[//*[@for='selected_test_panorama']]]></Panorama>
+				<Horizon><![CDATA[//*[@for='selected_test_horizon']]]></Horizon>
+				<Anora><![CDATA[//*[@for='selected_test_anora']]]></Anora>
+			</SelectATest>
+			
+			<PatientInfo>
+				<FName><![CDATA[//input[@id='patient_info[first_name]']]]></FName>
+				<LName><![CDATA[//input[@id='patient_info[last_name]']]]></LName>
+				<DOB><![CDATA[//input[@id='patient_info[date_of_birth]']]]></DOB>
+				<Adrs><![CDATA[//input[@id='patient_info[address]']]]></Adrs>
+				<City><![CDATA[//input[@id='patient_info[city]']]]></City>
+				<State><![CDATA[//select[@id='patient_info[state]']]]></State>
+				<Zip><![CDATA[//input[@id='patient_info[zip]']]]></Zip>
+				<Email><![CDATA[//input[@id='patient_info[email]']]]></Email>
+				<PhoneNo><![CDATA[//input[@id='patient_info[telephone]']]]></PhoneNo>
+				
+				<PatientGender><![CDATA[//select[@id='patient_info[gender]']]]></PatientGender>
+				
+				<DateOfSampleCollection><![CDATA[//input[@id='patient_info[date_sample_collected]']]]></DateOfSampleCollection>				
+			</PatientInfo>
+				
+			<OrderingClinician>
+				<SelectClinic><![CDATA[//select[@id='clinic_id']]]></SelectClinic>
+				<SelectAddress><![CDATA[//select[@id='address_id']]]></SelectAddress>
+				<Telephone><![CDATA[//input[@id='ordering_clinician[telephone]']]]></Telephone>
+				<OrderingClinicianName><![CDATA[//select[@id='ordering_clinician_clinician_id']]]></OrderingClinicianName>
+				<ReferringClinician><![CDATA[//input[@id='ordering_clinician[referring_clinician]']]]></ReferringClinician>
+				<Fax><![CDATA[//input[@id='ordering_clinician[fax]']]]></Fax>
+			</OrderingClinician>
+				
+			<PaymentInformation>
+				<BillInsurance></BillInsurance>
+				<BillClinic><![CDATA[//input[@value='bill_clinic']]]></BillClinic>
+				<BillClinic-CA></BillClinic-CA>
+				<SelfPay></SelfPay> 
+				<Unspecified></Unspecified>  
+			</PaymentInformation>
+			
+			<PanoramaPrenatalScreen>
+				<PanoramaPrenatalPanel><![CDATA[//input[@id='prenatal']]]></PanoramaPrenatalPanel>
+				<PanoramaExtendedPanel><![CDATA[//input[@id='extended']]]></PanoramaExtendedPanel>
+				<fetusreportCheckbox><![CDATA[//input[@id='panorama[provide_sex_of_fetus]']]]></fetusreportCheckbox>				
+				<HeightFeet><![CDATA[//input[@id='panorama[maternal_height_feet]']]]></HeightFeet>
+				<HeightInch><![CDATA[//input[@id='panorama[maternal_height_inches]']]]></HeightInch>
+				<MaternalWeight><![CDATA[//input[@id='panorama[maternal_weight_pounds]']]]></MaternalWeight>
+				
+				<AgeWeeks><![CDATA[//input[@id='panorama[gestational_age_weeks]']]]></AgeWeeks>
+				<AgeDays><![CDATA[//input[@id='panorama[gestational_age_days]']]]></AgeDays>
+				<TwinOrMultipleGestation><![CDATA[//select[@id='panorama[is_this_a_multiple_gestation_pregnancy]']]]></TwinOrMultipleGestation>
+				<DueDate><![CDATA[//input[@id='panorama[due_date]']]]></DueDate>				
+				<EggDonorOrSurrogateUsed><![CDATA[//select[@id='panorama[was_egg_donor_or_surrogate_used]']]]></EggDonorOrSurrogateUsed>
+				<KnownMicrodeletionCarrier><![CDATA[//select[@id='panorama[is_mother_known_microdeletion_carrier]']]]></KnownMicrodeletionCarrier>
+				<fatherSampleBeSubmitted><![CDATA[//select[@id='panorama[will_father_sample_be_submitted]']]]></fatherSampleBeSubmitted>
+				
+				<DiagnosisCodes>
+					<primigravida1sttrimester><![CDATA[//input[@value ='O09.511'][@name= 'panorama[o09_511_supervision_of_elderly_primigravida_1st_trimester]']]]></primigravida1sttrimester>
+				</DiagnosisCodes>
+								
+			</PanoramaPrenatalScreen>
+			
+			<HorizonCarrierScreen>
+				<HorizonPanelOptions>
+					<DMD><![CDATA[//input[@id='horizon[4_sma_cf_fragile_x_dmd]']]]></DMD> 
+				</HorizonPanelOptions>
+				
+				<SingleOptions>
+					<OptionCF><![CDATA[//input[@id='horizon[cystic_fibrosis]']]]></OptionCF> 
+				</SingleOptions>
+				
+				<TaySachsEnzyme><![CDATA[//input[@id ='horizon[add_tay_sachs]']]]></TaySachsEnzyme> 
+				
+				<Ethnicity>
+					<AfricanAmerican><![CDATA[//input[@value='AFA'][@name='horizon[ethnicity][]']]]></AfricanAmerican>
+				</Ethnicity>
+				
+				<CurrentlyUsingHormonalMedications><![CDATA[//select[@id='horizon[is_patient_using_hormonal_medications]']]]></CurrentlyUsingHormonalMedications>
+				
+				<ICDCodes>
+					<disorders228><![CDATA[//input[@name= 'horizon[z13_228_encounter_for_screening_for_other_metabolic_disorders]']]]></disorders228>
+				</ICDCodes>
+			</HorizonCarrierScreen>
+			
+			<AnoraProductsOfConception>
+				<AnoraMiscarriageTestCheckBox><![CDATA[id=anora[anora_products_of_conception]]]></AnoraMiscarriageTestCheckBox>
+				<PregnancyLossDate><![CDATA[id=anora[date_of_loss]]]></PregnancyLossDate>
+				<AgeAtLoss><![CDATA[id=anora[gestational_age_at_loss]]]></AgeAtLoss>
+				 <PregnancyWas>
+				 	<Singleton><![CDATA[//div[@class='radio']/label/input[@value='singleton']]]></Singleton>
+				 	<Twins><![CDATA[//div[@class='radio']/label/input[@value='twins']]]></Twins>
+				 	<Triplets><![CDATA[//div[@class='radio']/label/input[@value='triplets']]]></Triplets>
+				 	<Other><![CDATA[//div[@class='radio']/label/input[@value='other']]]></Other>
+				 </PregnancyWas>
+				<EggDonor><![CDATA[//*[@id='anora[was_egg_donor_used]']]]></EggDonor>
+				<Surrogate><![CDATA[//*[@id='anora[was_egg_donor_used]']]]></Surrogate>
+				<SampleTypeFresh><![CDATA[//input[@value='fresh' and @name='anora[sample_type]']]]></SampleTypeFresh>
+				<BloodSampleMother><![CDATA[//input[@value='biological_mother' and @name='anora[sample_source]']]]></BloodSampleMother>
+				
+				<NameSamplSource><![CDATA[//*[@id='anora[sample_name]']]]></NameSamplSource>
+				
+				<DiagnosisCodesMissed><![CDATA[//input[@value='on' and @name='anora[o02_1_missed_abortion]']]]></DiagnosisCodesMissed>
+				
+				<Hospital_SurgicalCenterName><![CDATA[id=anora[surgical_center]]]></Hospital_SurgicalCenterName>
+				<SampleType>
+					<Fresh><![CDATA[//div[@class='radio']/label/input[@value='fresh']]]></Fresh>
+					<Paraffin><![CDATA[//div[@class='radio']/label/input[@value='paraffin']]]></Paraffin>					
+				</SampleType>
+				<BloodSampleCollectedFrom>
+					<BiologicalMother><![CDATA[//div[@class='radio']/label/input[@value='biological_mother']]]></BiologicalMother>
+					<BiologicalFather><![CDATA[//div[@class='radio']/label/input[@value='biological_father']]]></BiologicalFather>
+					<GestationalCarrier><![CDATA[//div[@class='radio']/label/input[@value='gestational_carrier']]]></GestationalCarrier> 
+				</BloodSampleCollectedFrom>
+				<SampleSourceName><![CDATA[id=anora[sample_name]]]></SampleSourceName>
+				<DiagnosisCodes>
+					<N96><![CDATA[//*[@name='anora[n96_recurrent_pregnancy_loss]']]]></N96>
+					<MaternalCare><![CDATA[//div[@id='form-section-anora-products-of-conception']/div/div/div/div/div/label/input[@name='anora[o36_4xx0_maternal_care_for_intrauterine_death]']]]></MaternalCare> 
+				</DiagnosisCodes>
+				
+				<OtherCode><![CDATA[//*[@id='anora[other_icd_10_code]']]]></OtherCode>
+			
+			</AnoraProductsOfConception>
+			
+		<SaveAndPrintForm><![CDATA[//button[@id='save-submit-and-print-button']]]></SaveAndPrintForm>
+		<SaveDraftBtn><![CDATA[//*[contains(@class, 'btn btn-default') and contains(@value, 'Save Draft')]]]></SaveDraftBtn>
+		<SaveChangesBtn><![CDATA[//input[@value='Save Changes']]]></SaveChangesBtn>
+		<TestMissingPop><![CDATA[//*[@id='test-selection-modal']//h4[contains(@class, 'modal-title')]]]></TestMissingPop>
+		<TestMissingPopEditBtn><![CDATA[//*[@id='test-selection-modal']//button[contains(@class, 'btn btn-default') and contains(text(), 'Edit Form')]]]></TestMissingPopEditBtn>
+		<SaveToDreaftMsg><![CDATA[//div[@id='alerts']/div]]></SaveToDreaftMsg>
+		<DraftFormLink><![CDATA[//table[@class='table table-condensed']/tbody/tr/td/a]]></DraftFormLink>
+		<WarningMsgForDraftForm><![CDATA[//*[@class='alert alert-warning']/p]]></WarningMsgForDraftForm>
+		<PrintAnyway><![CDATA[//button[contains(@id,'print-anyway')]]]></PrintAnyway>
+			
+	</OrderATestPage>
+	
+	<OrderAtestPageData>
+		<HeaderTxt><![CDATA[Order a Test]]></HeaderTxt>	
+	</OrderAtestPageData>
+	
+	<InputData>
+		<FName><![CDATA[Aaron]]></FName>
+		<LName><![CDATA[Sky]]></LName>
+		<DOB><![CDATA[12/07/1990]]></DOB>
+		<Adrs><![CDATA[1596-Street]]></Adrs>
+		<City><![CDATA[Boston]]></City>			
+		<Zip><![CDATA[12121]]]></Zip>
+		<Email><![CDATA[Aaron@gmail.com]]></Email>
+		<PhoneNo><![CDATA[8860082828]]></PhoneNo>		
+		<PatientGender><![CDATA[//select[@id='patient_info[gender]']]]></PatientGender>
+		<DateOfSampleCollection><![CDATA[12/12/2015]]></DateOfSampleCollection>		
+		<TelephoneNumber><![CDATA[1122082828]]></TelephoneNumber>
+	</InputData>
+
+
+</Locators>

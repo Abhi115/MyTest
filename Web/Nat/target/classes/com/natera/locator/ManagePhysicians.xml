@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<MenuNatera>
+	    <CourierServices><![CDATA[//a[contains(@href,'submenu-clinic_services')]]]></CourierServices>
+		<ManagePhysicians><![CDATA[//a[@href='/admin/physicians']]]></ManagePhysicians>
+	</MenuNatera>
+	
+	<ManagePhysiciansPage>
+		<PageHeader><![CDATA[//header[@class='page-header']/h2]]></PageHeader>
+		<SearchBox><![CDATA[//input[@type='search']]]></SearchBox>
+		<TableRows><![CDATA[//table[@id='physician-admin-table']/tbody/tr]]></TableRows>
+		
+		<PopupWindow>
+			<Header><![CDATA[//h4[@id='edit-physician-title']]]></Header>
+			<Close><![CDATA[//form[@id='edit-physician-form']//button[@class='close']]]></Close>
+			<ResetBtn><![CDATA[//button[@id='reset-to-default']]]></ResetBtn>
+			<Fields>
+				<panorama_low><![CDATA[//input[@id='settings_panorama_low_risk_delay_days']]]></panorama_low>
+				<horizon_negative><![CDATA[//input[@id='settings_horizon_negative_delay_days']]]></horizon_negative>
+				<panorama_high><![CDATA[//input[@id='settings_panorama_high_risk_delay_days']]]></panorama_high>
+				<horizon_carrier><![CDATA[//input[@id='settings_horizon_carrier_delay_days']]]></horizon_carrier>
+				<view_test><![CDATA[//input[@id='settings_view_test_status_delay_days']]]></view_test>
+				<test_canceled><![CDATA[//input[@id='settings_test_canceled_delay_days']]]></test_canceled>
+			</Fields>			
+				
+			<Cancel><![CDATA[//form[@id='edit-physician-form']//button[contains(text(), 'Cancel')]]]></Cancel>
+			<SaveChanges><![CDATA[//form[@id='edit-physician-form']//input[@type='submit']]]></SaveChanges>
+		</PopupWindow>
+		<ChangesDoneMessage><![CDATA[//div[@id='alerts']/div]]></ChangesDoneMessage>
+		<Slider>
+				<PanoramaLowRiskSlider><![CDATA[//div[@id='panorama_low_risk_delay_days_slider']//div[contains(@class, 'noUi-origin noUi-background')]]]></PanoramaLowRiskSlider>
+				<HorizonNegativeSlider><![CDATA[//div[@id='horizon_negative_delay_days_slider']//div[contains(@class, 'noUi-origin noUi-background')]]]></HorizonNegativeSlider>
+				<PanoramaHighRiskSlider><![CDATA[//div[@id='panorama_high_risk_delay_days_slider']//div[contains(@class, 'noUi-origin noUi-background')]]]></PanoramaHighRiskSlider>
+				<HorizonPositiveSlider><![CDATA[//div[@id='horizon_carrier_delay_days_slider']//div[contains(@class, 'noUi-origin noUi-background')]]]></HorizonPositiveSlider>
+				<NoResultSlider><![CDATA[//div[@id='view_test_status_delay_days_slider']//div[contains(@class, 'noUi-origin noUi-background')]]]></NoResultSlider>
+				<TestCanceledSlider><![CDATA[//div[@id='test_canceled_delay_days_slider']//div[contains(@class, 'noUi-origin noUi-background')]]]></TestCanceledSlider>			
+			</Slider>		
+		
+		<ContectSetting><![CDATA[//a[contains(@href,'#clinics-tab')]]]></ContectSetting>
+		<AddContect><![CDATA[//input[contains(@class,'btn btn-secondary add-mi-email-button')]]]></AddContect>
+		<SaveChanges><![CDATA[//input[contains(@class,'btn btn-primary')]]]></SaveChanges>
+		<FirstName><![CDATA[//table[contains(@class,'table table-condensed mi-contact-table')]/tbody/tr/td[1]/input]]></FirstName>
+		<LastName><![CDATA[//table[contains(@class,'table table-condensed mi-contact-table')]/tbody/tr/td[2]/input]]></LastName>
+		<Email><![CDATA[//table[contains(@class,'table table-condensed mi-contact-table')]/tbody/tr/td[3]/input]]></Email>
+		<PhonNumber><![CDATA[//table[contains(@class,'table table-condensed mi-contact-table')]/tbody/tr/td[4]/input]]></PhonNumber>
+		<Removebtn><![CDATA[//table[contains(@class,'table table-condensed mi-contact-table')]/tbody/tr/td[5]/input]]></Removebtn>
+		<CaseReleseSetting><![CDATA[//body[contains(@id,'physicians_admin-edit')]/div[1]/div/div[2]/div/form/div/div/ul/li[1]/a]]></CaseReleseSetting>
+	</ManagePhysiciansPage>
+		
+</Locators>

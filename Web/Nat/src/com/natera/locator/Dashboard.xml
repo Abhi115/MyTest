@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<DashboardHeader>
+		<HeaderText><![CDATA[//a[@class='action-label' and @href='/case_results']]]></HeaderText>
+	</DashboardHeader>
+
+	<DashboardIndex>
+		<Dashboard><![CDATA[//div[@class='navbar-brand navbar-brand--centered']/a/img]]></Dashboard>
+	</DashboardIndex>
+
+	<DashboardLink>
+		<Processing><![CDATA[//a[contains(@href,'processing')]]]></Processing>
+		<Delivered><![CDATA[//a[contains(@href,'status=delivered')]]]></Delivered>
+		<ViewResults><![CDATA[//div[@class='panel-body text-center']/a[@href='/case_results']]]></ViewResults>
+		<OrderTests><![CDATA[//div[@class='panel-body text-center']/a[@href='/test_ordering/new']]]></OrderTests>
+		<ContactNatera><![CDATA[//div[@class='panel-body text-center']/a[@href='/messages']]]></ContactNatera>
+		<OrderKits><![CDATA[//div[@class='panel-body text-center']/a[@href='/order_kits']]]></OrderKits>
+	</DashboardLink>
+
+
+	<PageHeaderLocator>
+		<HeaderLocator><![CDATA[//h2]]></HeaderLocator>
+		<OrderKits>
+			<Panorama><![CDATA[//div[@id='navbar-scrollspy']/ul/li[1]/a]]></Panorama>
+			<Horizon><![CDATA[//div[@id='navbar-scrollspy']/ul/li[2]/a]]></Horizon>
+			<ComboKit><![CDATA[//div[@id='navbar-scrollspy']/ul/li[3]/a]]></ComboKit>
+			<Anora><![CDATA[//div[@id='navbar-scrollspy']/ul/li[4]/a]]></Anora>
+			<Spectrum><![CDATA[//div[@id='navbar-scrollspy']/ul/li[5]/a]]></Spectrum>
+		</OrderKits>
+	</PageHeaderLocator>
+
+	<DashboardLinkTxt>
+		<Processing><![CDATA[Processing]]></Processing>
+		<Delivered><![CDATA[Delivered]]></Delivered>
+		<ViewResults><![CDATA[View Results]]></ViewResults>
+		<OrderTests><![CDATA[Order Tests]]></OrderTests>
+		<ContactNatera><![CDATA[Contact Natera]]></ContactNatera>
+		<OrderKits><![CDATA[Order Kits]]></OrderKits>
+	</DashboardLinkTxt>
+
+	<DashBoardPageLocators>
+		<CasesSearchBox><![CDATA[//input[contains(@class,'react-typeahead-input react-typeahead-usertext')]]]></CasesSearchBox>
+		<ResultList><![CDATA[//div[@id='search-menu']/form/span/div/div/div]]></ResultList>
+		<CaseResultVerification>
+			<ResultPaseHeader><![CDATA[//h4[contains(@class,'panel-title')]]]></ResultPaseHeader>
+			<ResultCaseId><![CDATA[//div[@id='content']/div/div[2]/div[2]/div[1]/table/tbody/tr[2]/td]]></ResultCaseId>
+		</CaseResultVerification>
+
+		<ContactNateraIcon><![CDATA[//ul[@id='user-menu']/li[1]/a/span]]></ContactNateraIcon>
+		<ContactnateraPageHeader><![CDATA[//div[@id='content']/div/header/h2]]></ContactnateraPageHeader>
+
+		<UserSetting>
+			<MobileUserMenu><![CDATA[//button[contains(@data-target,'#user-menu')]]]></MobileUserMenu>
+			<UserMenu><![CDATA[//ul[@id='user-menu']/li[2]/a/span]]></UserMenu>
+			<Profile><![CDATA[//ul[@id='user-menu']/li[2]/ul/li[1]/a]]></Profile>
+			<MobileProfile><![CDATA[//*[@id='user-menu']/li[3]/a]]></MobileProfile>
+			<UserProfilePageHeader><![CDATA[//div[@id='content']/div/header/h2]]></UserProfilePageHeader>
+			<SignOut><![CDATA[//ul[@id='user-menu']/li[2]/ul/li[3]/a]]></SignOut>
+			<MobileSignOut><![CDATA[//*[@id='user-menu']/li[4]/a]]></MobileSignOut>
+		</UserSetting>
+		<DurationDropdown><![CDATA[//select[@id='dashboard-duration-select']]]></DurationDropdown>
+		<ProcessingCount><![CDATA[//body[@id='dashboard-index']/div[1]/div/div[2]/div/div[2]/div[1]/div/div/div[1]/div/div[2]/a/span[1]]]></ProcessingCount>
+		<DeliveredCount><![CDATA[//body[@id='dashboard-index']/div[1]/div/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[2]/a/span[1]]]></DeliveredCount>
+		<SearchBoxClinic><![CDATA[css=div.Select-placeholder]]></SearchBoxClinic>
+		<SelectDrop><![CDATA[//body[contains(@id,'dashboard-index')]/div[1]/div/div[1]/div/div/div[1]/div/div/div/div[2]/div/div[1]/span/span]]></SelectDrop>
+		<CheckPage><![CDATA[//div[contains(@class,'navbar-welcome hidden-mobile')]/p[contains(@class,'navbar-text')]]]></CheckPage>
+		<CancleClinic><![CDATA[//span[@class='Select-clear']]]></CancleClinic>
+	</DashBoardPageLocators>
+
+	<PageHeaderData>
+		<DashboardHeaderData><![CDATA[View Test Results]]></DashboardHeaderData>
+		<Processing><![CDATA[Case Results]]></Processing>
+		<Delivered><![CDATA[Case Results]]></Delivered>
+		<ViewResults><![CDATA[Case Results]]></ViewResults>
+		<OrderTests><![CDATA[Order a Test]]></OrderTests>
+		<ContactNatera><![CDATA[Contact Natera]]></ContactNatera>
+		<OrderKits>
+			<L1><![CDATA[Panorama]]></L1>
+			<L2><![CDATA[Horizon]]></L2>
+			<L3><![CDATA[Combo Kit]]></L3>
+			<L4><![CDATA[Anora]]></L4>
+			<L5><![CDATA[Spectrum]]></L5>
+		</OrderKits>
+	</PageHeaderData>
+</Locators>
+

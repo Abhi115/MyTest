@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Natera</groupId>
+  <artifactId>Natera</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   <dependencies>    
+ 	 <dependency>
+   		 <groupId>xml-apis</groupId>
+    	<artifactId>xml-apis</artifactId>
+    	<version>1.4.01</version>
+	</dependency>
+ 	 <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>2.52.0</version>
+   </dependency> 
+     <dependency>
+	<groupId>org.testng</groupId>
+	<artifactId>testng</artifactId>
+	<version>6.8.21</version>
+</dependency>
+     <dependency>
+	<groupId>dom4j</groupId>
+	<artifactId>dom4j</artifactId>
+	<version>1.6.1</version>
+</dependency> 
+     <dependency>
+		<groupId>jaxen</groupId>
+		<artifactId>jaxen</artifactId>
+		<version>1.1.1</version>
+	</dependency>
+  </dependencies> 
+    
+<properties>
+	<suiteFile>config\AllSmoke.xml</suiteFile>
+	<suiteFile>config\AllRegression.xml</suiteFile>
+	<suiteFile>config\PrintReqForm.xml</suiteFile>
+</properties> 
+    
+<build>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>2.19.1</version>
+			<configuration>
+				<suiteXmlFiles>
+					<!-- <suiteXmlFile>All.xml</suiteXmlFile>-->
+					<!-- IN CMD = mvn clean test -Dsurefire.suiteXmlFiles=config/All.xml -->
+					<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+				</suiteXmlFiles>
+			</configuration>
+		</plugin>
+		</plugins>
+	</build>
+</project>

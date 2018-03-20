@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Dashboard page test suite" verbose="1" >
+ <test name="Regression testcases for Dashboard page" >
+    <classes>
+   	 <class name="com.natera.testScripts.TC_001_Login"/>
+    </classes>      
+ </test>
+</suite>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>   
+	<Login>
+	    <LoginHelp><![CDATA[//a[contains(text(),'Login Help')]]]></LoginHelp>
+		<PageHeader><![CDATA[css=.panel-heading]]></PageHeader>		
+		<UserName><![CDATA[//input[@id='database_user_login']]]></UserName>
+		<Password><![CDATA[//input[@id='database_user_password']]]></Password>
+		<LogIn><![CDATA[name=commit]]></LogIn>
+		<RememberCheckBox><![CDATA[id=database_user_remember_me]]></RememberCheckBox>
+	    <ForgetPasswordLink><![CDATA[//span[@class='help-block' ] /a[@href='/users/password/new']]]></ForgetPasswordLink>
+		<NotReceivedConfMsgLink><![CDATA[//a[contains(@href,'/users/confirmation/new')]]]></NotReceivedConfMsgLink>
+		<UnlockMyAccount><![CDATA[//a[contains(@href,'/users/unlock/new')]]]></UnlockMyAccount>
+		<InvalidIdMsg><![CDATA[//div[@id='alerts']/div]]></InvalidIdMsg>
+		
+		<MobileLoginHelp><![CDATA[//*[@id='login-nav']/ul[2]/li/a]]></MobileLoginHelp>
+	</Login>
+	
+	<ForgetPasswordPage>
+		<PageHeader><![CDATA[//h4]]></PageHeader>
+		<EmailBox><![CDATA[//input[contains(@id,'database_user_email')]]]></EmailBox>
+		<SendResetPasswordBtn><![CDATA[//form[@id='new_database_user']/div[2]/input]]></SendResetPasswordBtn>
+		<ConfMessage><![CDATA[//div[@id='alerts']/div]]></ConfMessage>	
+	</ForgetPasswordPage>
+	
+	<ResendConfInstruction>
+		<PageHeader><![CDATA[//h4]]></PageHeader>
+		<EmailIdField><![CDATA[//input[@id='database_user_email']]]></EmailIdField>
+		<ResendBtn><![CDATA[//form[@id='new_database_user']/div[2]/input]]></ResendBtn>
+		<ConfMessage><![CDATA[//div[@id='alerts']/div]]></ConfMessage>
+	</ResendConfInstruction>
+	
+	<ResendUnlockInstructions>
+		<PageHeader><![CDATA[//h4]]></PageHeader>
+		<EmailIdField><![CDATA[//input[@id='database_user_email']]]></EmailIdField>
+		<ResendBtn><![CDATA[//form[@id='new_database_user']/div[2]/input]]></ResendBtn>
+		<ConfMessage><![CDATA[//div[contains(@class,'alert alert-notice alert-dismissable')]]]></ConfMessage>
+		<IdNotLocked><![CDATA[//form[@id='edit_database_user']/div[1]/div/span]]></IdNotLocked>
+	</ResendUnlockInstructions>
+	
+	<SignUp>
+		<SignUpLink><![CDATA[//div[@class='pull-right hidden-mobile']/a[@href='/users/sign_up']]]></SignUpLink>
+		<MobileSignUpLink><![CDATA[//*[@id='login-nav']/ul[1]/li[2]/a]]></MobileSignUpLink>
+		<PageHeader><![CDATA[//h4[contains(@id,'panel-title-')]]]></PageHeader>
+		<FirstName><![CDATA[id=database_user_first_name]]></FirstName>
+		<LastName><![CDATA[id=database_user_last_name]]></LastName>
+		<EmailId><![CDATA[id=database_user_email]]></EmailId>			
+		<SignUpBtn><![CDATA[//div[@class='text-center']/input[@name='commit']]]></SignUpBtn>
+		
+		<ConfMessage><![CDATA[//div[@id='alerts']/div]]></ConfMessage>
+		<CheckYourEmail><![CDATA[//h4[contains(@id,'panel-title-')]]]></CheckYourEmail>
+		<CorrectItLink><![CDATA[//a[contains(@href,'/users/sign_up?')]]]></CorrectItLink>
+		<ExistingIDAlert><![CDATA[//span[contains(@class,'help-block')]]]></ExistingIDAlert>
+	</SignUp>
+	
+	<UserSetting>
+		<UserMenu><![CDATA[//a[contains(@class,'dropdown-toggle')]]]></UserMenu>
+		<MobileUserMenu><![CDATA[//button[contains(@data-target,'#user-menu')]]]></MobileUserMenu>
+		<Username><![CDATA[//ul[@id='user-menu']/li[2]/ul/li[1]]]></Username>
+		<SignOut><![CDATA[//a[contains(@href,'/users/log_out')]]]></SignOut>
+		<MobileSignOut><![CDATA[//*[@id='user-menu']/li/a[@data-method='delete']]]></MobileSignOut>
+	</UserSetting>
+	
+	
+	<InputData>
+		<SighupInputData>
+			<FirstName><![CDATA[Akhilesh]]></FirstName>
+			<LastName><![CDATA[Kumar]]></LastName>
+			<EmailId><![CDATA[akhileshk05@360logica.com]]></EmailId>
+		</SighupInputData>
+	</InputData>
+		
+</Locators>
+
+

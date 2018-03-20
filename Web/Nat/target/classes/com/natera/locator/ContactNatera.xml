@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<MenuNatera>
+		<ContactNatera><![CDATA[//a[@href='/messages']/span[contains(@class, 'fa fa-fw nav-icon fa-envelope')]]]></ContactNatera>
+	</MenuNatera>
+	
+	<ContactNateraPage>
+		<PageHeaderLocator><![CDATA[//h2]]></PageHeaderLocator>
+		<MessageCountPerPage><![CDATA[//select[@name='message-center-table_length']]]></MessageCountPerPage>
+		<MessageHistory><![CDATA[//body[contains(@id,'clinic_message_threads-index')]/div[1]/div/div[2]/div/div[4]/div/div[2]/div/table/thead/tr/th[1]]]></MessageHistory>
+		
+		<TableRows><![CDATA[//table[@id='message-center-table']/tbody/tr]]></TableRows>
+		<FilterMessageSearchBox><![CDATA[//input[@type='search']]]></FilterMessageSearchBox>
+		<NoMatchingRecord><![CDATA[//td[@class='dataTables_empty']]]></NoMatchingRecord>		
+	</ContactNateraPage>
+	
+	<MessagePage>
+		<MessagePageHeader><![CDATA[//h2]]></MessagePageHeader>
+		<BackBtn><![CDATA[//a[contains(@class, 'btn btn-default') and contains(text(), 'Back')]]]></BackBtn>
+		<ReplyTxtBox><![CDATA[//*[@id='body']]]></ReplyTxtBox>
+		<BrowseBtn><![CDATA[//input[@id='attachments_']]]></BrowseBtn>
+		<ReplySendBtn><![CDATA[//input[@type='submit']]]></ReplySendBtn>
+		<ReplySuccessfulMessage><![CDATA[//div[@id='alerts']/div]]></ReplySuccessfulMessage>
+	</MessagePage>
+	
+	<PageData>
+		<Headertxt><![CDATA[Contact Natera]]></Headertxt>
+	</PageData>
+	
+	<NewMsgPouup>
+		<SelectClinicBox><![CDATA[//select[@id='clinic_id']]]></SelectClinicBox>
+		<QuestionAbout><![CDATA[//select[@id='inquiry']]]></QuestionAbout>
+		<SubjectTxtBox><![CDATA[//input[@id='subject']]]></SubjectTxtBox>
+		<MessageBox><![CDATA[//textarea[@id='body']]]></MessageBox>
+		<SendBtn><![CDATA[//form[@id='message_form']//input[@type='submit']]]></SendBtn>
+		<CancelBtn><![CDATA[//form[@id='message_form']//button[contains(text(), 'Cancel')]]]></CancelBtn>
+	</NewMsgPouup>
+	
+	<VerifyMsgSent><![CDATA[//div[@id='alerts']/div]]></VerifyMsgSent>
+	
+</Locators>

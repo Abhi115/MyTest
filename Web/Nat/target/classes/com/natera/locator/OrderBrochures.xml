@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+	<MenuNatera>
+		<OrderSupplies><![CDATA[//*[@href='#submenu-order_supplies']]]></OrderSupplies>
+		<SubMenuOrderSupplies>
+			<OrderBrochures><![CDATA[//*[@href='/printed_materials']]]></OrderBrochures>
+		</SubMenuOrderSupplies>
+	</MenuNatera>
+	
+	<OrderBrochuresPage>
+		<OrderBrochuresPageHeaderTabs>		
+			<Panorama><![CDATA[//*[contains(@class, 'smoothscroll') and contains(text(), 'Panorama')]]]></Panorama>
+			<Horizon><![CDATA[//*[contains(@class, 'smoothscroll') and contains(text(), 'Horizon')]]]></Horizon>
+			<Anora><![CDATA[//*[contains(@class, 'smoothscroll') and contains(text(), 'Anora')]]]></Anora>
+			<Spectrum><![CDATA[//*[contains(@class, 'smoothscroll') and contains(text(), 'Spectrum')]]]></Spectrum>
+			<NateraBilling><![CDATA[//*[contains(@class, 'smoothscroll') and contains(text(), 'Natera Billing')]]]></NateraBilling>	
+			<RequisitionForms><![CDATA[//a[contains(@href,'category-requisition-forms')]]]></RequisitionForms>	
+		</OrderBrochuresPageHeaderTabs>		
+		
+		<AddToCart> 
+			<Panorama><![CDATA[//button[@data-category='Panorama' and contains(text(), 'Add to Cart')]]]></Panorama>
+			<Horizon><![CDATA[//button[@data-category='Horizon' and contains(text(), 'Add to Cart')]]]></Horizon>
+			<Anora><![CDATA[//button[@data-category='Anora' and contains(text(), 'Add to Cart')]]]></Anora>
+			<Spectrum><![CDATA[//button[@data-category='Spectrum' and contains(text(), 'Add to Cart')]]]></Spectrum>
+			<NateraBilling><![CDATA[//button[@data-category='Natera Billing' and contains(text(), 'Add to Cart')]]]></NateraBilling>
+			<RequisitionForms><![CDATA[//button[@data-category='Requisition Forms'  and contains(text(), 'Add to Cart')]]]></RequisitionForms>	
+		</AddToCart>
+		
+			
+		<Download>
+			<Panorama><![CDATA[//button[@class='btn btn-default btn-sm dropdown-toggle']]]></Panorama>
+			<DownloadPDF><![CDATA[//ul[@class='dropdown-menu']//a[contains(text(), 'Download PDF')]]]></DownloadPDF>
+			
+			<Horizon><![CDATA[]]></Horizon>
+			<Anora><![CDATA[]]></Anora>
+			<Spectrum><![CDATA[]]></Spectrum>
+			<NateraBilling><![CDATA[]]></NateraBilling>
+		</Download>
+		
+		<ShopingCartList>
+			<ListRowCount><![CDATA[//div[@id='shopping-cart-list']//table/tbody/tr]]></ListRowCount>
+			<ItemIncrease><![CDATA[//div[@id='shopping-cart-list']//table/tbody/tr//input[contains(@type, 'number')]]]></ItemIncrease>
+		</ShopingCartList>
+		
+			<ShippingInfo>
+			<ContactName><![CDATA[//input[@id='contact_name']]]></ContactName>
+			<SelectClinic><![CDATA[//select[@id='clinic_id']]]></SelectClinic>
+			<SelectAddress><![CDATA[//select[@id='address_id']]]></SelectAddress>
+			<ShipAnotherAddress><![CDATA[//input[@id='address-override-toggle']]]></ShipAnotherAddress>
+			
+			<AnotherAddress>
+				<Street><![CDATA[//input[@id='new_address_address']]]></Street>
+				<City><![CDATA[//input[@id='new_address_city']]]></City>
+				<State><![CDATA[//input[@id='new_address_state']]]></State>
+				<Zip><![CDATA[//input[@id='new_address_zip']]]></Zip>
+				<Country><![CDATA[//select[@id='new_address_countrycode']]]></Country>
+			</AnotherAddress>		
+		</ShippingInfo>
+		
+		<PlaceOrderBtn><![CDATA[//input[@id='place_order_brochures_button']]]></PlaceOrderBtn>
+		<OrderPlacedMsg><![CDATA[//*[contains(@class, 'alert alert-success')]]]></OrderPlacedMsg>
+		<OrderMoreKits><![CDATA[//div[@id='content']//a[contains(text(), 'Need to order more brochures?')]]]></OrderMoreKits>
+	
+	</OrderBrochuresPage>
+	
+	<InputData>
+		<ContactName><![CDATA[Akhilesh]]></ContactName>
+		<SelectClinic><![CDATA[Reproductive Care Center - Utah]]></SelectClinic>
+		<SelectAddress><![CDATA[10150 S. Petunia Way Sandy, UT, 84092]]></SelectAddress>
+		<Street><![CDATA[1596-Street]]></Street>
+		<City><![CDATA[Boston]]></City>
+		<State><![CDATA[New York]]></State>
+		<Zip><![CDATA[12121]]></Zip>
+		<Country><![CDATA[United States]]></Country>		
+	</InputData>
+	
+</Locators>

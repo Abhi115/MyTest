@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Manage My Clinic page test suite" verbose="1" >
+ <test name="Regression testcases for Manage My Clinic page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_087_ManageMyClinicPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_088_SwitchToClinic"/>
+    	<class name="com.natera.testScripts.regression.RTC_089_InviteANewUser"/>
+    	<class name="com.natera.testScripts.regression.RTC_090_InviteAnAlreadyInvitedUser"/>
+    	<class name="com.natera.testScripts.regression.RTC_091_ClearClinicSelection"/>    			
+    </classes>      
+ </test>
+</suite>

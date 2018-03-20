@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+
+<project name="Natera" default="runAll" basedir=".">  
+
+	<!-- ====== Initialize Properties ====== -->
+    <property environment="env"/>
+    <import file="./properties.xml"/>
+	<property name="browser" value="C:/Program Files/Mozilla Firefox/firefox.exe"/>
+
+    <!-- ====== Include required jar files and set classpath ====== -->
+    <path id="test.classpath">
+		<pathelement location="${test.dest}" />
+		<fileset dir="${test.lib}">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+    <!-- ====== Check for ANT setup ====== -->
+    <tstamp>
+        <format property="date" pattern="MMddyyyy" />
+        <format property="time" pattern="hhmmss" />
+    </tstamp>
+
+    <!-- ====== Delete old compiled classes ====== -->
+    <target name="clean">
+        <delete dir="${test.dest}"/>
+		<delete dir="${test.result}"/>
+		<mkdir dir="${test.result}"/>
+		<!--delete dir="${test.screenshot}"/>
+		<mkdir dir="${test.screenshot}"/-->
+    </target>
+
+    <!-- ====== TestNG task definition ====== -->
+    <taskdef name="testng" classpathref="test.classpath" classname="org.testng.TestNGAntTask" />
+    
+    <!-- ====== Compile all java files ====== -->
+    <target name="compile" depends="clean" > 
+        <echo message="making directory..."/>
+		<mkdir dir="${test.dest}"/>
+        <echo message="classpath: ${test.classpath}"/>
+        <echo message="compiling..."/>
+        <javac debug="true" destdir="${test.dest}" includes="**/*.java" srcdir="${test.src}"> 
+            <classpath refid="test.classpath" />
+        </javac>		 
+    </target>
+	
+	<!-- ====== Run All tests ====== -->   
+	<target name="runAll" depends="compile">
+        <testng classpathref="test.classpath" 
+				suitename="LoginNatera" 
+				outputdir="${test.result}"
+				haltonfailure="true"
+				useDefaultListeners="false"
+				listeners="org.uncommons.reportng.HTMLReporter">
+            <xmlfileset dir="${ws.home}/config" includes="All.xml"/> 
+			<sysproperty key="org.uncommons.reportng.escape-output" value="false"/>
+			<sysproperty key="org.uncommons.reportng.title" value="My Test Report"/>
+        </testng>
+    </target>
+    <!-- ====== Run Login test ====== -->   
+   
+    <target name="Login" depends="compile">
+        <testng classpathref="test.classpath" 
+				suitename="Login" 
+				outputdir="${test.result}"
+				haltonfailure="true"
+				useDefaultListeners="false">
+            <xmlfileset dir="${ws.home}/config" includes="TC_001_Login.xml"/> 
+        </testng>
+    </target>	
+	
+	<!-- ====== Run LayoutFunctionClickDrop test ====== -->   
+	<target name="ClickOnViewResultsOnDashboardPage" depends="compile">
+        <testng classpathref="test.classpath" 
+				suitename="ViewResults" 
+				outputdir="${test.result}"
+				haltonfailure="true"
+				useDefaultListeners="false"
+				listeners="org.uncommons.reportng.HTMLReporter">
+            <xmlfileset dir="${ws.home}/config" includes="TC_002_ClickOnViewResultsOnDashboardPage.xml"/>
+			<sysproperty key="org.uncommons.reportng.escape-output" value="false"/>			
+			<sysproperty key="org.uncommons.reportng.title" value="My Test Report"/>
+        </testng>
+    </target>	
+	
+	<!-- ====== Run PriorityXIndicator test ====== -->   
+	<target name="FilterResultsOnTestResultsPage" depends="compile">
+        <testng classpathref="test.classpath" 
+				suitename="FilterResults" 
+				outputdir="${test.result}"
+				haltonfailure="true"
+				useDefaultListeners="false"
+				listeners="org.uncommons.reportng.HTMLReporter">
+            <xmlfileset dir="${ws.home}/config" includes="TC_003_FilterResultsOnTestResultsPage.xml"/> 
+			<sysproperty key="org.uncommons.reportng.escape-output" value="false"/>
+			<sysproperty key="org.uncommons.reportng.title" value="My Test Report"/>
+        </testng>
+    </target>	
+	
+	<!-- ====== Run PlannersNoteIndicator test ====== -->   
+	<target name="DownloadTestOrderingForm" depends="compile">
+        <testng classpathref="test.classpath" 
+				suitename="DownloadSpectrumForm" 
+				outputdir="${test.result}"
+				haltonfailure="true"
+				useDefaultListeners="false"
+				listeners="org.uncommons.reportng.HTMLReporter">
+            <xmlfileset dir="${ws.home}/config" includes="TC_004_DownloadTestOrderingForm.xml"/> 
+			<sysproperty key="org.uncommons.reportng.escape-output" value="false"/>
+			<sysproperty key="org.uncommons.reportng.title" value="My Test Report"/>
+        </testng>
+    </target>	
+	
+				
+	<!-- Open the report in browser.-->
+				<target name="openReport"> 
+				  <exec executable="${browser}" spawn="yes"> 
+				   <arg line="'${test.result}\html\index.html'" /> 
+				  </exec>
+				</target>
+	
+</project>
+
+

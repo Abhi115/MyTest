@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Manage Provider page test suite" verbose="1" >
+ <test name="Regression testcases for Manage Provider page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_092_ManageProviderPageVerification"/>    	
+    	<class name="com.natera.testScripts.regression.RTC_093_SearchPhysicanHavingResult"/>
+    	<class name="com.natera.testScripts.regression.RTC_094_SearchPhysicianHavingNoResult"/>
+    	<class name="com.natera.testScripts.regression.RTC_095_EditAndCancelPhysicianDetail"/>
+    	<class name="com.natera.testScripts.regression.RTC_096_EditAndSavePhysicianDetail"/>
+    	<class name="com.natera.testScripts.regression.RTC_097_ResetPhysicianDetail"/>    	
+    </classes>      
+ </test>
+</suite>

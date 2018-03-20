@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Education Center page test suite" verbose="1" >
+ <test name="Regression testcases for Education Center page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_071_EducationCenterPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_072_NateraBillingSubLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_073_PanoramaPatientBrochuresSubLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_074_PanoramaFactSheetsMoreSubLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_075_HorizonForPatientsSubLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_076_HorizonPostTestSubLink"/>    	
+    	<class name="com.natera.testScripts.regression.RTC_077_HorizonFactSheetsMoreSubLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_078_AnoraPatientSupplementsSubLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_079_AnoraFactSheetsMoreSubLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_080_SpectrumForPatientsSubLink"/>
+    	<class name="com.natera.testScripts.regression.RTC_081_SpectrumForProviderSubLink"/>		
+    </classes>      
+ </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Order Brochures page test suite" verbose="1" >
+ <test name="Regression testcases for Order Brochures page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_056_OrderBrochuresPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_057_DownloadPDF"/>
+    	<class name="com.natera.testScripts.regression.RTC_058_AddBrochurToCart"/>
+    	<class name="com.natera.testScripts.regression.RTC_059_RemoveBrochures"/>
+    	<class name="com.natera.testScripts.regression.RTC_060_FillShippingInfo"/>
+    	<class name="com.natera.testScripts.regression.RTC_061_FillOtherShippingAddress"/>
+    	<class name="com.natera.testScripts.regression.RTC_062_PlaceBrochuresOrder"/>
+    	<class name="com.natera.testScripts.regression.RTC_063_OrderMoreBrochureslink"/>		
+    </classes>      
+ </test>
+</suite>

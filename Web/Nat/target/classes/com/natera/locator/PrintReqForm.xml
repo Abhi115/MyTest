@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+	<MenuNatera>
+		<TestOrdering><![CDATA[//*[contains(@href, 'submenu-test_ordering')]]]></TestOrdering>
+		<SubMenuTestOrdering>
+			<PrintReqForm><![CDATA[//*[@href='/req_form']]]></PrintReqForm>
+		</SubMenuTestOrdering>
+	</MenuNatera>
+	
+	<PrintReqFormPage>
+		<UseAsHeader><![CDATA[//*[@for='address_id']]]></UseAsHeader>
+		<SelectClinic><![CDATA[//select[@id='clinic_id']]]></SelectClinic>
+		<SelectAddrs><![CDATA[//select[@id='address_id']]]></SelectAddrs>
+		<SelectTest><![CDATA[//select[@id='_test']]]></SelectTest>
+		<FormPDFLoad><![CDATA[//*[@id='content']//canvas[contains(@class, 'pdf-canvas')]]]></FormPDFLoad>
+		<DownloadFormBtn><![CDATA[//a[@id='download-req-form-button']]]></DownloadFormBtn>
+		<PrintFormBtn><![CDATA[//a[@id='print-req-form-button']]]></PrintFormBtn>		
+		<DownloadBtn><![CDATA[//*[@class='btn btn-default download-pdf']]]></DownloadBtn>
+		<DownloadIcon><![CDATA[//button[@id='download']]]></DownloadIcon>		
+	    <PrintBtn><![CDATA[//button[contains(@class,'print default') and contains(@name,'print']]]></PrintBtn>	
+	</PrintReqFormPage>	
+	
+	<PageData>
+		<UseAsHeaderTxt><![CDATA[Please select the satellite clinic]]></UseAsHeaderTxt>
+	</PageData>
+
+
+</Locators>

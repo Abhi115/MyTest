@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Contact Natera page test suite" verbose="1" >
+ <test name="Regression testcases for Contact Natera page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_064_ContactNateraPageVerification"/>
+    	<class name="com.natera.testScripts.regression.RTC_065_MessagePerPage"/>
+    	<class name="com.natera.testScripts.regression.RTC_066_composeAndSendNewMessage"/>
+    	<class name="com.natera.testScripts.regression.RTC_067_FilterMessageSearchBoxForNoMatching"/>
+    	<class name="com.natera.testScripts.regression.RTC_068_FilterMessageSearchBoxWithMatching"/>
+    	<class name="com.natera.testScripts.regression.RTC_069_OpenMessage"/>
+    	<class name="com.natera.testScripts.regression.RTC_070_ReplyOnMessage"/>		
+    </classes>      
+ </test>
+</suite>

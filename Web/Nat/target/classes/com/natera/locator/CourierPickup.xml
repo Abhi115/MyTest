@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<MenuNatera>
+	<ClinicServices><![CDATA[//a[contains(@href,'submenu-clinic_services')]]]></ClinicServices>
+		
+	</MenuNatera>	
+	<CourierPickPage>
+	    <CourierServices><![CDATA[//a[contains(@href,'medspeed')]]]></CourierServices>
+		<HeaderLocator><![CDATA[//h2[contains(text(),'Medspeed Courier Pickup')]]]></HeaderLocator>
+		<HeaderTxt><![CDATA[Medspeed Courier Pickup]]></HeaderTxt>
+	</CourierPickPage>
+	
+	<LoginMedSpeed>
+	   <MedSpeedlogin><![CDATA[//input[contains(@class,'btn btn-primary')]]]></MedSpeedlogin>
+		
+	</LoginMedSpeed>
+</Locators>

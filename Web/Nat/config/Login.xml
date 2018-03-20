@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Login page test suite" verbose="1" >
+ <test name="Regression testcases for Login page" >
+    <classes>
+    	<class name="com.natera.testScripts.regression.RTC_001_Signup"/>
+    	<class name="com.natera.testScripts.regression.RTC_002_SignupWithExistingID"/>
+    	<class name="com.natera.testScripts.regression.RTC_003_CorrectEmailIDLinkBehavior"/>
+    	<class name="com.natera.testScripts.regression.RTC_004_ResetPassword"/>
+    	<class name="com.natera.testScripts.regression.RTC_005_ResendConfirmationInstructions"/>
+    	<class name="com.natera.testScripts.regression.RTC_006_NeedUnlockAccount"/>
+    	<class name="com.natera.testScripts.regression.RTC_007_UserLoggedOut"/>
+    	<class name="com.natera.testScripts.regression.RTC_009_UserSignInWithInvalidId"/>
+    	<class name="com.natera.testScripts.regression.RTC_010_UserSignInWithWrongPassword"/>    	
+    	<class name="com.natera.testScripts.regression.RTC_011_RememberMeCheckbox"/>		
+    </classes>      
+ </test>
+</suite>

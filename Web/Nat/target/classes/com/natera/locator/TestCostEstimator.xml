@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+	<MenuNatera>
+	    <PatientServices><![CDATA[//a[contains(@href,'submenu-patient_services')]]]></PatientServices>
+		<TestCostEstimator><![CDATA[//a[contains(@href,'/test_cost_estimator')]]]></TestCostEstimator>
+	</MenuNatera>	
+	
+	<TestCostEstimatorPage>
+		<PageHeasder><![CDATA[//h2[text()='Test Cost Estimator']]]></PageHeasder>	    
+	    <SelectPayment><![CDATA[//button[contains(@class,'btn dropdown-toggle btn-default')]]]></SelectPayment>
+	    <SelectDropdownMenu><![CDATA[//li[contains(@data-original-index,'2')]/a[contains(@data-tokens,'null')]/span[contains(@class,'text')]]]></SelectDropdownMenu>
+	    <TestSections><![CDATA[//button[contains(@data-id,'inputTest')]]]></TestSections>
+	    <SelectDwnTest><![CDATA[]]>//*[@id='Test']/div/div/div/ul/li[1]/a</SelectDwnTest>
+	    <SubmitBtn><![CDATA[//button[contains(text(),'Submit')]]]></SubmitBtn>
+	    <Element><![CDATA[//h3[contains(text(),'Estimate Cost')]]]></Element>
+	    <MobileSelectPayment><![CDATA[//select[@id='inputPay']]]></MobileSelectPayment>
+	    <MobileTestSections><![CDATA[//select[@id='inputTest']]]></MobileTestSections>
+	    
+	</TestCostEstimatorPage>
+	
+	<TestCostNextPage>
+	   <PageHeader><![CDATA[//h4[contains(text(),'Please call Natera to inquire about the self pay rate for')]]]></PageHeader>
+	   <RequestBtn><![CDATA[//div[contains(@class,'text-center')]/a[contains(@class,'btn btn-primary')]]]></RequestBtn> 
+	</TestCostNextPage>
+	
+	 <InputData>		
+		 <SelectPreference><![CDATA[Self pay]]></SelectPreference>	
+	 </InputData>
+	
+</Locators>
+	
