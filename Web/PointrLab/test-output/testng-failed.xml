@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.pointrlab.testscript.LoginScript">
+        <methods>
+          <include name="setUp"/>
+          <include name="test01_Login_And_LogOut_With_Valid_Username_And_Password"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.pointrlab.testscript.LoginScript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

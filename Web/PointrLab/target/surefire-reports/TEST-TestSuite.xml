@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.513" tests="103" errors="0" skipped="102" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_144\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\abhishekbs\eclipse-workspace\PointrLab"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\abhishekbs\eclipse-workspace\PointrLab"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ABHISH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\PuTTY\;C:\Users\abhishekbs\AppData\Local\Microsoft\WindowsApps;C:\Users\abhishekbs\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\abhishekbs\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\Program Files\Apache\maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache\maven\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\abhishekbs"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="abhishekbs"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_144"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_144\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="setUp" classname="com.pointrlab.testscript.LoginScript" time="19.39">
+    <failure message="unknown error: cannot get automation extension&#10;from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html&#10;  (Session info: chrome=62.0.3202.94)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.5.1&apos;, revision: &apos;9c21bb67ef&apos;, time: &apos;2017-08-17T15:26:08.955Z&apos;&#10;System info: host: &apos;360NDCLP001&apos;, ip: &apos;192.168.8.89&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ABHISH~1\AppData\Local\Temp\scoped_dir14424_557}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 7ef6c8a95e8b0e67107d50f86bde9f23" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: '360NDCLP001', ip: '192.168.8.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ABHISH~1\AppData\Local\Temp\scoped_dir14424_557}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7ef6c8a95e8b0e67107d50f86bde9f23
+</failure>
+    <system-out><![CDATA[[TestNG] [Warn] Could not find reporte class : listenReport.Reporter
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 17748
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+Dec 01, 2017 12:02:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test01_Login_And_LogOut_With_Valid_Username_And_Password" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test02_Login_With_Blank_Username_And_Password" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test03_Login_With_Invalid_Username_And_Valid_Password" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test04_Login_With_Valid_Username_And_Invalid_Password" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMainMethod" classname="com.pointrlab.testscript.LoginScript" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test01_AddNewRole" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test02_AddNewUser" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test03_VerifyUserIsAbleToIncludeActivities" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test04_VerifyUserIsAbleToExcludeActivities" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test05_VerifyUserIsAbleToAddFacilityForUser" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test06_VerifyUserIsAbleToexcludeFacilityForUser" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test07_VerifyUserIsAbleToUpdateNewlyCreatedUser" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test08_VerifyAddedUserInFacilityManagement" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test09_VerifyAddedRoleInUserManagement" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMainMethod" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test01_VerifyDrawingIconsAreAvailable" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="captureScreenShot" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test02_VerifyUserIsAbleToAddPolygonOnSolidWallLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test03_VerifyUserIsAbleToAddPolygonOnTransparentWallLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test04_VerifyUserIsAbleToUpdateAddedPolygonOnSolidWallLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test05_VerifyUserIsAbleToUpdateAddedPolygonOnTransparentWallLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test06_VerifyUserIsAbleToAddPolygonOnZoneLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test07_VerifyUserIsAbleToUpdateAddedPolygonOnZoneLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test08_VerifyUserIsAbleToAddPolygonOnAssetTriggerLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test09_VerifyUserIsAbleToUpdateAddedPolygonOnAssetTriggerLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test10_VerifyUserIsAbleToAddPolygonOnExternalTriggerLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test11_VerifyUserIsAbleToUpdateAddedPolygonOnExternalTriggerLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test12_VerifyUserIsAbleToAddRectangleOnTransparentWallLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test13_VerifyUserIsAbleToAddRectangleSolidWallLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test14_VerifyUserIsAbleToAddRectangleOnZoneLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test15_VerifyUserIsAbleToUpdateAddedRectangleOnSolidWallLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test16_VerifyUserIsAbleToUpdateAddedRectangleOnTransparentWallLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test17_VerifyUserIsAbleToUpdateAddedRectangleOnZoneLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test18_VerifyUserIsAbleToAddRectangleOnAssetTriggerLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test19_VerifyUserIsAbleToAddRectangleOnExternalTriggerLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test20_VerifyUserIsAbleToAddRectangleOnTriggerLayer" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterMainMethod" classname="com.pointrlab.testscript.MapDesigner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDownSuite" classname="com.pointrlab.testscript.UserManagement" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

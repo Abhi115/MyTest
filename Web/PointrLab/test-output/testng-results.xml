@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14784" started-at="2017-12-02T12:46:29Z" finished-at="2017-12-02T12:46:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14784" started-at="2017-12-02T12:46:29Z" finished-at="2017-12-02T12:46:44Z">
+      <class name="com.pointrlab.testscript.LoginScript">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.pointrlab.testscript.LoginScript@fbd1f6]" name="before" is-config="true" duration-ms="309" started-at="2017-12-02T18:16:28Z" finished-at="2017-12-02T18:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.pointrlab.testscript.LoginScript@fbd1f6]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-02T18:16:29Z" finished-at="2017-12-02T18:16:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pointrlab.testscript.LoginScript.test01_Login_And_LogOut_With_Valid_Username_And_Password() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: '360NDCLP001', ip: '100.75.134.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ABHISH~1\AppData\Local\Temp\scoped_dir6012_11900}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0fe747db57ebfabb877270ff89bc06e2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: '360NDCLP001', ip: '100.75.134.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\ABHISH~1\AppData\Local\Temp\scoped_dir6012_11900}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=62.0.3202.94, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0fe747db57ebfabb877270ff89bc06e2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:929)
+	at com.pointrlab.selenium.framework.BaseTest.setUp(BaseTest.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="test01_Login_And_LogOut_With_Valid_Username_And_Password()[pri:0, instance:com.pointrlab.testscript.LoginScript@fbd1f6]" name="test01_Login_And_LogOut_With_Valid_Username_And_Password" duration-ms="16" started-at="2017-12-02T18:16:44Z" finished-at="2017-12-02T18:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_Login_And_LogOut_With_Valid_Username_And_Password -->
+        <test-method status="SKIP" signature="captureScreenShot(org.testng.ITestResult)[pri:0, instance:com.pointrlab.testscript.LoginScript@fbd1f6]" name="captureScreenShot" is-config="true" duration-ms="0" started-at="2017-12-02T18:16:44Z" finished-at="2017-12-02T18:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+        <test-method status="SKIP" signature="afterMainMethod()[pri:0, instance:com.pointrlab.testscript.LoginScript@fbd1f6]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2017-12-02T18:16:44Z" finished-at="2017-12-02T18:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="SKIP" signature="tearDownSuite()[pri:0, instance:com.pointrlab.testscript.LoginScript@fbd1f6]" name="tearDownSuite" is-config="true" duration-ms="0" started-at="2017-12-02T18:16:44Z" finished-at="2017-12-02T18:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.pointrlab.testscript.LoginScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
