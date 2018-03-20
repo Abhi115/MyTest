@@ -1,0 +1,62 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Sequential" verbose="10">
+
+  <listeners>
+    <listener class-name="com.mobizio.report.CustomReport"/>
+    <listener class-name="com.mobizio.report.ExtentReporterNG"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+  <test name="Mobizio-AllScripts" preserve-order="true" verbose="2">
+    <classes>
+      <class name="BranchManagement.MB_8478_MB_8479"/>
+      <class name="BranchManagement.MB_8480_MB_8481"/>
+      <class name="BranchManagement.MB_8483"/>
+      <class name="BranchManagement.MB_8484"/>
+      <class name="UserManagement.MB_8473"/>
+      <class name="UserManagement.MB_8475"/>
+      <class name="UserManagement.MB_8476"/>
+      <class name="UserManagement.MB_8652"/>
+      <class name="UserManagement.MB_3778"/>
+      <class name="UserManagement.MB_3609"/>
+      <class name="UserManagement.MB_8474"/>
+      <class name="UserManagement.MB_4178_4175"/>
+      <class name="UserManagement.MB_4511"/>
+      <class name="UserManagement.MB_4514"/>
+      <class name="UserManagement.MB_3894"/>
+      <class name="UserManagement.MB_4100"/>
+      <class name="UserManagement.MB_4107_MB_4101"/>
+      <class name="VisitManagement.MB_8490"/>
+      <class name="VisitManagement.MB_8494_MB_8495_MB_8504_MB_8505"/>
+      <class name="VisitManagement.MB_8494_MB_8495_MB_8502_MB_8503"/>
+      <class name="VisitManagement.MB_4271_MB_4272_MB_4273_MB_4274"/>
+      <class name="VisitManagement.MB_4269_MB_4270"/>
+      <class name="VisitManagement.MB_4105"/>
+      <class name="DeviceManagement.MB_3779"/>
+      <class name="DeviceManagement.MB_3005_MB_4088"/>
+      <class name="DeviceManagement.MB_3311"/>
+      <class name="DeviceManagement.MB_4084"/>
+      <class name="DeviceManagement.MB_4086_MB_4087"/>
+      <class name="FormManagement.MB_3781"/>
+      <class name="TenantManagement.MB_3888"/>
+      <class name="TenantManagement.MB_3891"/>
+      <class name="TenantManagement.MB_4109"/>
+      <class name="GroupManagement.MB_3203"/>
+      <class name="GroupManagement.MB_3204_MB_4221"/>
+      <class name="GroupManagement.MB_3202"/>
+      <class name="GroupManagement.MB_4219"/>
+      <class name="Miscellaneous.MB_3780"/>
+      <class name="CustomerManagement.MB_3746"/>
+      <class name="CustomerManagement.MB_3608"/>
+      <class name="UserManagement.MB_3747"/>
+      <class name="UserManagement.MB_4719"/>
+      <class name="CustomerManagement.MB_8560"/>
+      <class name="CustomerManagement.MB_8561"/>
+      <class name="CustomerManagement.MB_8563"/>
+      <class name="CustomerManagement.MB_8567"/>
+      <class name="UserManagement.MB_8633"/>
+      <class name="UserManagement.MB_7106"/>
+    </classes>
+  </test>
+</suite>
+

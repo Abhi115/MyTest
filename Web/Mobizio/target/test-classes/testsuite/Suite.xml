@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="10">
+
+  <listeners>
+    <listener class-name="com.mobizio.report.CustomReport"/>
+    <listener class-name="com.mobizio.report.ExtentReporterNG"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+  <test name="Login Logout" preserve-order="true" parallel="instances" verbose="2">
+    <classes>
+      <class name="BranchManagement.MB_8483"/>
+      <class name="BranchManagement.MB_8484"/>
+      <class name="CustomerManagement.CreateNewCustomerWithAllDetails"/>
+      <class name="FormManagement.EditFormWithAllDetails"/>
+      <class name="Miscellaneous.CreateNewSection"/>
+      <class name="Miscellaneous.CreateRoleWithDetails"/>
+      <class name="UserManagement.MB_8473"/>
+      <class name="UserManagement.MB_8475"/>
+      <class name="UserManagement.MB_8476"/>
+      <class name="UserManagement.MB_8652"/>
+      <class name="VisitManagement.CreateTaskWithAllDetails"/>
+    </classes>
+  </test>
+
+</suite>
